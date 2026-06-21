@@ -1,4 +1,4 @@
-import { geoMercator, geoPath, geoClipRectangle } from 'd3-geo'
+import { geoMercator, geoPath } from 'd3-geo'
 import { feature } from 'topojson-client'
 import { writeFileSync, mkdirSync } from 'fs'
 import https from 'https'
@@ -14,9 +14,43 @@ const EUROPE_IDS = new Set([
 const HQ_ID = '688'
 const WIDTH = 900
 const HEIGHT = 620
-const PADDING = 20
+const PADDING = 24
 
-const clipEurope = geoClipRectangle([[-12, 34], [42, 72]])
+function isInEurope(lon, lat) {
+  return lon >= -25 && lon <= 47 && lat >= 34 && lat <= 72
+}
+
+function ringCentroid(ring) {
+  let lon = 0
+  let lat = 0
+  for (const [x, y] of ring) {
+    lon += x
+    lat += y
+  }
+  return [lon / ring.length, lat / ring.length]
+}
+
+function filterGeometry(geometry) {
+  if (geometry.type === 'Polygon') {
+    const filtered = geometry.coordinates.filter((ring) => {
+      const [lon, lat] = ringCentroid(ring)
+      return isInEurope(lon, lat)
+    })
+    if (!filtered.length) return null
+    return { type: 'Polygon', coordinates: filtered }
+  }
+
+  if (geometry.type === 'MultiPolygon') {
+    const filtered = geometry.coordinates.filter((polygon) => {
+      const [lon, lat] = ringCentroid(polygon[0])
+      return isInEurope(lon, lat)
+    })
+    if (!filtered.length) return null
+    return { type: 'MultiPolygon', coordinates: filtered }
+  }
+
+  return geometry
+}
 
 const topo = await new Promise((resolve, reject) => {
   https.get('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json', (res) => {
@@ -28,22 +62,29 @@ const topo = await new Promise((resolve, reject) => {
 })
 
 const geojson = feature(topo, topo.objects.countries)
-const europeFeatures = geojson.features.filter((f) => EUROPE_IDS.has(String(f.id)))
+
+const europeFeatures = geojson.features
+  .filter((f) => EUROPE_IDS.has(String(f.id)))
+  .map((f) => {
+    const geometry = filterGeometry(f.geometry)
+    if (!geometry) return null
+    return { type: 'Feature', id: f.id, properties: f.properties, geometry }
+  })
+  .filter(Boolean)
+
 const europeCollection = { type: 'FeatureCollection', features: europeFeatures }
 
-const projection = geoMercator()
-  .preclip(clipEurope)
-  .fitExtent(
-    [[PADDING, PADDING], [WIDTH - PADDING, HEIGHT - PADDING]],
-    europeCollection,
-  )
+const projection = geoMercator().fitExtent(
+  [[PADDING, PADDING], [WIDTH - PADDING, HEIGHT - PADDING]],
+  europeCollection,
+)
 
 const pathGen = geoPath(projection)
 
 const countries = europeFeatures.map((f) => {
   const id = String(f.id)
   const d = pathGen(f)
-  if (!d) return null
+  if (!d || d.includes('NaN')) return null
   return {
     id,
     name: f.properties.name,
@@ -65,4 +106,9 @@ writeFileSync(
     hqMarker: { x: hqMarker[0], y: hqMarker[1] },
   }),
 )
-console.log(`Generated ${countries.length} countries, viewBox 0 0 ${WIDTH} ${HEIGHT}`)
+
+console.log(`Generated ${countries.length} countries`)
+if (countries.some((c) => c.path.includes('NaN'))) {
+  console.error('ERROR: paths contain NaN')
+  process.exit(1)
+}
