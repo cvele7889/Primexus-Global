@@ -24,6 +24,7 @@ export default function Footer() {
             <a href="#about">{t('nav.about')}</a>
             <a href="#locations">{t('nav.locations')}</a>
             <a href="#careers">{t('nav.careers')}</a>
+            <a href="#positions">{t('nav.positions')}</a>
             <a href="#contact">{t('nav.contact')}</a>
           </div>
 

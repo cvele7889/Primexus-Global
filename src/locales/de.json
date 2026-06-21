@@ -5,6 +5,7 @@
     "about": "Über uns",
     "locations": "Standorte",
     "careers": "Karriere",
+    "positions": "Offene Stellen",
     "contact": "Kontakt"
   },
   "hero": {
@@ -87,7 +88,7 @@
     "legal": "Rechtsstatus",
     "legalValue": "Gesellschaft mit beschränkter Haftung (GmbH)",
     "founder": "Gründer & gesetzlicher Vertreter",
-    "founderValue": "Dieselbe Person",
+    "founderValue": "Aleksandar Đorđević",
     "values": {
       "title": "Unsere Werte",
       "people": "Menschen an erster Stelle",
@@ -116,7 +117,94 @@
       "south": "Südeuropa"
     },
     "languages": "Support-Sprachen",
-    "langList": "Serbisch, Englisch, Deutsch, Französisch, Italienisch, Spanisch, Niederländisch und mehr"
+    "langList": "Serbisch, Englisch, Deutsch, Französisch, Italienisch, Spanisch, Niederländisch und mehr",
+    "legendHub": "Operative Zentren",
+    "legendCoverage": "Service-Abdeckung"
+  },
+  "jobs": {
+    "title": "Offene Stellen",
+    "subtitle": "Finden Sie Ihren perfekten Job. Wir wachsen und suchen talentierte Menschen.",
+    "showing": "Angezeigt: {{count}} von {{total}}",
+    "apply": "Bewerben",
+    "noResults": "Keine Stellen für die gewählten Filter.",
+    "filters": {
+      "country": "Land",
+      "category": "Kategorie",
+      "language": "Sprache",
+      "all": "Alle",
+      "serbia": "Serbien",
+      "europe": "Europa",
+      "support": "Kundensupport",
+      "management": "Management",
+      "it": "IT",
+      "sales": "Vertrieb",
+      "admin": "Administration",
+      "quality": "Qualitätssicherung",
+      "general": "Initiativbewerbung",
+      "serbian": "Serbisch",
+      "english": "Englisch",
+      "german": "Deutsch",
+      "anyLang": "Beliebig",
+      "reset": "Zurücksetzen"
+    },
+    "items": {
+      "job1": {
+        "title": "Kundenberater — Deutsch",
+        "desc": "Kundensupport auf Deutsch per Chat, E-Mail und Telefon. Homeoffice mit flexiblen Arbeitszeiten.",
+        "location": "Serbien, Remote",
+        "type": "Vollzeit",
+        "lang": "Deutsch"
+      },
+      "job2": {
+        "title": "Kundenberater — Englisch",
+        "desc": "Kommunizieren Sie mit Kunden in ganz Europa auf Englisch. Ideal für kommunikative Menschen.",
+        "location": "Serbien, Remote",
+        "type": "Vollzeit",
+        "lang": "Englisch"
+      },
+      "job3": {
+        "title": "Team Leader — Call Center",
+        "desc": "Führen Sie ein Agententeam, verfolgen Sie KPIs, schulen Sie neue Kollegen und sichern Sie hohe Servicequalität.",
+        "location": "Ljig, Serbien",
+        "type": "Vollzeit",
+        "lang": "Serbisch / Englisch"
+      },
+      "job4": {
+        "title": "IT-Support-Spezialist",
+        "desc": "Technischer Support für Kunden, Lösung von Software- und Hardwareproblemen, Help-Desk-Wartung.",
+        "location": "Serbien, Remote",
+        "type": "Vollzeit",
+        "lang": "Englisch"
+      },
+      "job5": {
+        "title": "Telemarketing-Agent — deutscher Markt",
+        "desc": "Kontaktieren Sie potenzielle Kunden im deutschen Markt und präsentieren Sie Produkte unserer Partner.",
+        "location": "Serbien, Remote",
+        "type": "Vollzeit",
+        "lang": "Deutsch"
+      },
+      "job6": {
+        "title": "Datenverarbeitungs-Spezialist",
+        "desc": "Eingabe, Validierung und Analyse von Geschäftsdaten für inländische und internationale Kunden.",
+        "location": "Serbien, Remote",
+        "type": "Vollzeit",
+        "lang": "Serbisch"
+      },
+      "job7": {
+        "title": "QA-Analyst — Qualitätssicherung",
+        "desc": "Anrufe bewerten, Feedback geben und hohe Servicestandards aufrechterhalten.",
+        "location": "Ljig, Serbien",
+        "type": "Vollzeit",
+        "lang": "Englisch"
+      },
+      "job8": {
+        "title": "Initiativbewerbung — Lebenslauf senden",
+        "desc": "Keine passende Stelle gefunden? Senden Sie uns Ihren Lebenslauf — wir melden uns bei passenden Offerten.",
+        "location": "Europa, Remote",
+        "type": "Initiativbewerbung",
+        "lang": "Beliebige Sprache"
+      }
+    }
   },
   "careers": {
     "label": "Karriere",

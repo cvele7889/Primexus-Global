@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import JobListings from './JobListings'
 import '../styles/careers.css'
 
 const benefits = [
@@ -29,6 +30,8 @@ export default function Careers() {
             </div>
           ))}
         </div>
+
+        <JobListings />
 
         <div className="careers-cta">
           <div className="careers-cta-text">

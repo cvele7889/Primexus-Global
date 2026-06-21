@@ -5,6 +5,7 @@
     "about": "About",
     "locations": "Locations",
     "careers": "Careers",
+    "positions": "Open positions",
     "contact": "Contact"
   },
   "hero": {
@@ -87,7 +88,7 @@
     "legal": "Legal status",
     "legalValue": "Limited Liability Company (LLC)",
     "founder": "Founder & legal representative",
-    "founderValue": "Same person",
+    "founderValue": "Aleksandar Đorđević",
     "values": {
       "title": "Our values",
       "people": "People first",
@@ -116,7 +117,94 @@
       "south": "Southern Europe"
     },
     "languages": "Support languages",
-    "langList": "Serbian, English, German, French, Italian, Spanish, Dutch and more"
+    "langList": "Serbian, English, German, French, Italian, Spanish, Dutch and more",
+    "legendHub": "Operational hubs",
+    "legendCoverage": "Service coverage"
+  },
+  "jobs": {
+    "title": "Open positions",
+    "subtitle": "Find your perfect job. We're growing and looking for talented people.",
+    "showing": "Showing: {{count}} of {{total}}",
+    "apply": "Apply",
+    "noResults": "No positions match your filters.",
+    "filters": {
+      "country": "Country",
+      "category": "Category",
+      "language": "Language",
+      "all": "All",
+      "serbia": "Serbia",
+      "europe": "Europe",
+      "support": "Customer Support",
+      "management": "Management",
+      "it": "IT",
+      "sales": "Sales",
+      "admin": "Administration",
+      "quality": "Quality Assurance",
+      "general": "General application",
+      "serbian": "Serbian",
+      "english": "English",
+      "german": "German",
+      "anyLang": "Any",
+      "reset": "Reset"
+    },
+    "items": {
+      "job1": {
+        "title": "Customer Support Agent — German",
+        "desc": "Provide customer support in German via chat, email and phone. Work from home with flexible hours.",
+        "location": "Serbia, Remote",
+        "type": "Full-time",
+        "lang": "German"
+      },
+      "job2": {
+        "title": "Customer Support Agent — English",
+        "desc": "Communicate with customers across Europe in English. Ideal for outgoing people who enjoy helping others.",
+        "location": "Serbia, Remote",
+        "type": "Full-time",
+        "lang": "English"
+      },
+      "job3": {
+        "title": "Team Leader — Call Center",
+        "desc": "Lead a team of agents, track KPI metrics, train new colleagues and ensure high service quality.",
+        "location": "Ljig, Serbia",
+        "type": "Full-time",
+        "lang": "Serbian / English"
+      },
+      "job4": {
+        "title": "IT Support Specialist",
+        "desc": "Provide technical support to customers, resolve software and hardware issues, maintain help desk systems.",
+        "location": "Serbia, Remote",
+        "type": "Full-time",
+        "lang": "English"
+      },
+      "job5": {
+        "title": "Telemarketing Agent — German market",
+        "desc": "Contact potential clients in the German market, present products and services of our partners.",
+        "location": "Serbia, Remote",
+        "type": "Full-time",
+        "lang": "German"
+      },
+      "job6": {
+        "title": "Data Processing Specialist",
+        "desc": "Entry, validation and analysis of business data for domestic and international clients. Attention to detail is key.",
+        "location": "Serbia, Remote",
+        "type": "Full-time",
+        "lang": "Serbian"
+      },
+      "job7": {
+        "title": "QA Analyst — Quality Assurance",
+        "desc": "Listen to and evaluate agent calls, provide feedback and help maintain high service standards.",
+        "location": "Ljig, Serbia",
+        "type": "Full-time",
+        "lang": "English"
+      },
+      "job8": {
+        "title": "Open application — send your CV",
+        "desc": "Didn't find a position that suits you? Send us your CV and we'll contact you when a matching role opens.",
+        "location": "Europe, Remote",
+        "type": "Open application",
+        "lang": "Any language"
+      }
+    }
   },
   "careers": {
     "label": "Careers",

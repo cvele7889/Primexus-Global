@@ -30,6 +30,7 @@ export default function Header() {
     { href: '#about', label: t('nav.about') },
     { href: '#locations', label: t('nav.locations') },
     { href: '#careers', label: t('nav.careers') },
+    { href: '#positions', label: t('nav.positions') },
     { href: '#contact', label: t('nav.contact') },
   ]
 

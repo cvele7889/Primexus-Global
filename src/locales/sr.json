@@ -5,6 +5,7 @@
     "about": "O nama",
     "locations": "Lokacije",
     "careers": "Karijera",
+    "positions": "Otvorene pozicije",
     "contact": "Kontakt"
   },
   "hero": {
@@ -87,7 +88,7 @@
     "legal": "Pravni status",
     "legalValue": "Društvo sa ograničenom odgovornošću (D.O.O.)",
     "founder": "Osnivač i zakonski zastupnik",
-    "founderValue": "Ista osoba",
+    "founderValue": "Aleksandar Đorđević",
     "values": {
       "title": "Naše vrednosti",
       "people": "Ljudi na prvom mestu",
@@ -116,7 +117,94 @@
       "south": "Južna Evropa"
     },
     "languages": "Jezici podrške",
-    "langList": "Srpski, Engleski, Nemački, Francuski, Italijanski, Španski, Holandski i drugi"
+    "langList": "Srpski, Engleski, Nemački, Francuski, Italijanski, Španski, Holandski i drugi",
+    "legendHub": "Operativni centri",
+    "legendCoverage": "Pokrivenost usluga"
+  },
+  "jobs": {
+    "title": "Otvorene pozicije",
+    "subtitle": "Pronađi savršen posao za sebe. Stalno rastemo i tražimo talentovane ljude.",
+    "showing": "Prikazano: {{count}} od {{total}}",
+    "apply": "Prijavi se",
+    "noResults": "Nema pozicija za izabrane filtere.",
+    "filters": {
+      "country": "Zemlja",
+      "category": "Kategorija",
+      "language": "Jezik",
+      "all": "Sve",
+      "serbia": "Srbija",
+      "europe": "Evropa",
+      "support": "Korisnička podrška",
+      "management": "Menadžment",
+      "it": "IT",
+      "sales": "Prodaja",
+      "admin": "Administracija",
+      "quality": "Kontrola kvaliteta",
+      "general": "Opšta prijava",
+      "serbian": "Srpski",
+      "english": "Engleski",
+      "german": "Nemački",
+      "anyLang": "Bilo koji",
+      "reset": "Resetuj"
+    },
+    "items": {
+      "job1": {
+        "title": "Agent korisničke podrške — nemački jezik",
+        "desc": "Pružaj podršku korisnicima na nemačkom jeziku putem chata, emaila i telefona. Rad od kuće, fleksibilno radno vreme.",
+        "location": "Srbija, Remote",
+        "type": "Puno radno vreme",
+        "lang": "Nemački"
+      },
+      "job2": {
+        "title": "Agent korisničke podrške — engleski jezik",
+        "desc": "Komuniciraj sa korisnicima širom Evrope na engleskom jeziku. Idealno za komunikativne osobe koje vole rad sa ljudima.",
+        "location": "Srbija, Remote",
+        "type": "Puno radno vreme",
+        "lang": "Engleski"
+      },
+      "job3": {
+        "title": "Team Leader — Call Center",
+        "desc": "Vodi tim agenta, prati KPI metrike, obučava nove kolege i osigurava visok nivo kvaliteta usluge.",
+        "location": "Ljig, Srbija",
+        "type": "Puno radno vreme",
+        "lang": "Srpski / Engleski"
+      },
+      "job4": {
+        "title": "IT Support Specialist",
+        "desc": "Pružaj tehničku podršku korisnicima, rešavaj probleme sa softverom i hardverom, održavaj help desk sistem.",
+        "location": "Srbija, Remote",
+        "type": "Puno radno vreme",
+        "lang": "Engleski"
+      },
+      "job5": {
+        "title": "Telemarketing agent — nemačko tržište",
+        "desc": "Kontaktiraj potencijalne klijente na nemačkom tržištu, predstavljaj proizvode i usluge naših partnera.",
+        "location": "Srbija, Remote",
+        "type": "Puno radno vreme",
+        "lang": "Nemački"
+      },
+      "job6": {
+        "title": "Specijalista za obradu podataka",
+        "desc": "Unos, validacija i analiza poslovnih podataka za domaće i inostrane klijente. Pažnja na detalje je ključna.",
+        "location": "Srbija, Remote",
+        "type": "Puno radno vreme",
+        "lang": "Srpski"
+      },
+      "job7": {
+        "title": "QA analitičar — kontrola kvaliteta",
+        "desc": "Slušaj i evaluiraj pozive agenata, daj povratne informacije i pomozi u održavanju visokih standarda usluge.",
+        "location": "Ljig, Srbija",
+        "type": "Puno radno vreme",
+        "lang": "Engleski"
+      },
+      "job8": {
+        "title": "Otvorena molba — pošalji CV",
+        "desc": "Nisi našao/la poziciju koja ti odgovara? Pošalji nam CV i javićemo ti se čim se otvori odgovarajuća pozicija.",
+        "location": "Evropa, Remote",
+        "type": "Otvorena molba",
+        "lang": "Bilo koji jezik"
+      }
+    }
   },
   "careers": {
     "label": "Karijera",
