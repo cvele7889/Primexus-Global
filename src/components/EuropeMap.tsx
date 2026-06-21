@@ -15,8 +15,10 @@ export default function EuropeMap() {
   const [hovered, setHovered] = useState<string | null>(null)
   const [tooltip, setTooltip] = useState({ x: 0, y: 0, name: '' })
 
-  const { viewBox, countries, hqMarker } = mapData as {
+  const { viewBox, width, height, countries, hqMarker } = mapData as {
     viewBox: string
+    width: number
+    height: number
     countries: MapCountry[]
     hqMarker: { x: number; y: number }
   }
@@ -33,7 +35,7 @@ export default function EuropeMap() {
 
   return (
     <div className="europe-map-wrapper">
-      <svg viewBox={viewBox} className="europe-map-svg" aria-label="Map of Europe">
+      <svg viewBox={viewBox} className="europe-map-svg" preserveAspectRatio="xMidYMid meet" aria-label="Map of Europe">
         <defs>
           <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#071220" />
@@ -52,19 +54,16 @@ export default function EuropeMap() {
             <stop offset="100%" stopColor="#00a870" />
           </linearGradient>
           <filter id="mapGlow">
-            <feDropShadow dx="0" dy="0" stdDeviation="3" floodColor="#0066ff" floodOpacity="0.35" />
+            <feDropShadow dx="0" dy="0" stdDeviation="2" floodColor="#0066ff" floodOpacity="0.3" />
           </filter>
           <filter id="hqGlow">
-            <feDropShadow dx="0" dy="0" stdDeviation="5" floodColor="#00e5a0" floodOpacity="0.7" />
+            <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#00e5a0" floodOpacity="0.6" />
           </filter>
-          <clipPath id="europeClip">
-            <rect x="0" y="0" width="1000" height="700" rx="16" />
-          </clipPath>
         </defs>
 
-        <rect width="1000" height="700" fill="url(#oceanGrad)" rx="16" />
+        <rect width={width} height={height} fill="url(#oceanGrad)" rx="12" />
 
-        <g clipPath="url(#europeClip)" filter="url(#mapGlow)">
+        <g filter="url(#mapGlow)">
           {countries.map((c) => {
             const isHq = c.id === '688'
             const isHovered = hovered === c.id
