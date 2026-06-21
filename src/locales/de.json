@@ -25,6 +25,45 @@
     "title": "Vertrauenswürdiger Partner für Outsourcing & CX",
     "subtitle": "Wir bieten komplette Lösungen für inländische und internationale Unternehmen — von Call Centern bis zur Unternehmensberatung."
   },
+  "success": {
+    "label": "Karriere",
+    "title1": "Ihr Erfolg ist unser Erfolg.",
+    "subtitle1": "Wir sind unermüdlich dem Erfolg unserer Kunden — und Ihrem — verpflichtet. Werden Sie Teil eines Teams, das führende Marken in Europa unterstützt.",
+    "cta1": "Offene Stellen entdecken",
+    "title2": "Die Generation, die von überall arbeitet.",
+    "subtitle2": "Bauen Sie eine großartige Karriere im Homeoffice auf. Flexible Arbeitsmodelle, Schulungen und Unterstützung vom ersten Tag an.",
+    "cta2": "Offene Stellen ansehen",
+    "slide1": {
+      "alt": "Professioneller Kundensupport mit Headset",
+      "caption": "Kundensupport in Fremdsprachen"
+    },
+    "slide2": {
+      "alt": "Teamzusammenarbeit in modernem Umfeld",
+      "caption": "Teamarbeit und gegenseitige Unterstützung"
+    },
+    "slide3": {
+      "alt": "Homeoffice-Arbeit mit Laptop",
+      "caption": "Flexibles Arbeiten — von zu Hause oder im Büro"
+    },
+    "slide4": {
+      "alt": "Geschäftskommunikation mit Kunden",
+      "caption": "Unterstützung führender Marken in Europa"
+    },
+    "remote": {
+      "remote1": {
+        "alt": "Teambesprechung im modernen Büro",
+        "caption": "Professionelles Arbeitsumfeld"
+      },
+      "remote2": {
+        "alt": "Arbeit am Laptop von zu Hause",
+        "caption": "Remote-Arbeit — Ihr Tempo, unser Team"
+      },
+      "remote3": {
+        "alt": "Vielfältiges Team im Geschäftsraum",
+        "caption": "Internationales und inklusives Umfeld"
+      }
+    }
+  },
   "services": {
     "label": "Unsere Dienstleistungen",
     "title": "Umfassende Unterstützung für Ihr Unternehmen",

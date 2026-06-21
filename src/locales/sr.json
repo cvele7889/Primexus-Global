@@ -25,6 +25,45 @@
     "title": "Pouzdani partner za outsourcing i CX",
     "subtitle": "Pružamo kompletna rešenja za domaće i inostrane kompanije — od pozivnih centara do poslovnog savetovanja."
   },
+  "success": {
+    "label": "Karijera",
+    "title1": "Tvoj uspeh je naš uspeh.",
+    "subtitle1": "Neumorno smo posvećeni uspehu naših klijenata — i tvom takođe. Budi deo tima koji podržava vodeće brendove širom Evrope.",
+    "cta1": "Istraži slobodna mesta",
+    "title2": "Generacija koja radi s bilo kog mesta.",
+    "subtitle2": "Izgradi sjajnu karijeru radeći od kuće. Fleksibilni modeli rada, obuke i podrška od prvog dana — jednako efikasno remote i iz kancelarije.",
+    "cta2": "Pogledaj otvorene pozicije",
+    "slide1": {
+      "alt": "Profesionalna korisnička podrška sa headsetom",
+      "caption": "Korisnička podrška na stranim jezicima"
+    },
+    "slide2": {
+      "alt": "Timska saradnja u modernom okruženju",
+      "caption": "Timski rad i međusobna podrška"
+    },
+    "slide3": {
+      "alt": "Rad od kuće sa laptopom",
+      "caption": "Fleksibilan rad — od kuće ili kancelarije"
+    },
+    "slide4": {
+      "alt": "Poslovna komunikacija sa klijentima",
+      "caption": "Podrška vodećim brendovima u Evropi"
+    },
+    "remote": {
+      "remote1": {
+        "alt": "Tim na sastanku u modernoj kancelariji",
+        "caption": "Profesionalno radno okruženje"
+      },
+      "remote2": {
+        "alt": "Rad na laptopu iz udobnog prostora",
+        "caption": "Remote rad — tvoj tempo, naš tim"
+      },
+      "remote3": {
+        "alt": "Diverse tim u poslovnom prostoru",
+        "caption": "Međunarodno i inkluzivno okruženje"
+      }
+    }
+  },
   "services": {
     "label": "Naše usluge",
     "title": "Kompletna podrška za vaš biznis",

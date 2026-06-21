@@ -25,6 +25,45 @@
     "title": "Trusted partner for outsourcing & CX",
     "subtitle": "We provide complete solutions for domestic and international companies — from call centers to business consulting."
   },
+  "success": {
+    "label": "Careers",
+    "title1": "Your success is our success.",
+    "subtitle1": "We are relentlessly committed to our clients' success — and yours. Join a team that supports leading brands across Europe.",
+    "cta1": "Explore open positions",
+    "title2": "The generation that works from anywhere.",
+    "subtitle2": "Build a great career working from home. Flexible work models, training and support from day one — equally effective remote and in-office.",
+    "cta2": "View open positions",
+    "slide1": {
+      "alt": "Professional customer support with headset",
+      "caption": "Customer support in foreign languages"
+    },
+    "slide2": {
+      "alt": "Team collaboration in modern environment",
+      "caption": "Teamwork and mutual support"
+    },
+    "slide3": {
+      "alt": "Working from home with laptop",
+      "caption": "Flexible work — from home or office"
+    },
+    "slide4": {
+      "alt": "Business communication with clients",
+      "caption": "Supporting leading brands in Europe"
+    },
+    "remote": {
+      "remote1": {
+        "alt": "Team meeting in modern office",
+        "caption": "Professional work environment"
+      },
+      "remote2": {
+        "alt": "Working on laptop from comfortable space",
+        "caption": "Remote work — your pace, our team"
+      },
+      "remote3": {
+        "alt": "Diverse team in business space",
+        "caption": "International and inclusive environment"
+      }
+    }
+  },
   "services": {
     "label": "Our services",
     "title": "Complete support for your business",

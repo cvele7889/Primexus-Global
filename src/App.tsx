@@ -4,6 +4,7 @@ import Trusted from './components/Trusted'
 import Services from './components/Services'
 import About from './components/About'
 import Locations from './components/Locations'
+import SuccessShowcase from './components/SuccessShowcase'
 import Careers from './components/Careers'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -18,6 +19,7 @@ export default function App() {
         <Services />
         <About />
         <Locations />
+        <SuccessShowcase />
         <Careers />
         <Contact />
       </main>
