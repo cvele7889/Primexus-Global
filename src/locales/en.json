@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "locations": "Locations",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "European CX Services Leader",
+    "title1": "Redefining",
+    "title2": "customer experience.",
+    "title3": "Your success, our priority.",
+    "subtitle": "Primexus Global delivers premium customer and technical support in foreign languages, focused on Europe and global partners.",
+    "cta1": "Let's collaborate",
+    "cta2": "Explore services",
+    "stat1": "European markets",
+    "stat2": "Support languages",
+    "stat3": "Availability",
+    "stat4": "Quality commitment"
+  },
+  "trusted": {
+    "title": "Trusted partner for outsourcing & CX",
+    "subtitle": "We provide complete solutions for domestic and international companies — from call centers to business consulting."
+  },
+  "services": {
+    "label": "Our services",
+    "title": "Complete support for your business",
+    "subtitle": "From customer support to IT solutions — we cover the full spectrum of business needs.",
+    "items": {
+      "customer": {
+        "title": "Customer Support",
+        "desc": "Professional customer support in multiple foreign languages, 24/7 availability and high satisfaction rates."
+      },
+      "technical": {
+        "title": "Technical Support",
+        "desc": "Expert IT and technical assistance for your products and services, fast problem resolution."
+      },
+      "callcenter": {
+        "title": "Call Center",
+        "desc": "Inbound and outbound call center services — telemarketing, sales, information and support."
+      },
+      "admin": {
+        "title": "Administrative Support",
+        "desc": "Business and administrative support that frees your team for strategic tasks."
+      },
+      "outsourcing": {
+        "title": "Outsourcing",
+        "desc": "Complete outsourcing services for domestic and international companies — flexible and scalable."
+      },
+      "telemarketing": {
+        "title": "Telemarketing",
+        "desc": "Targeted campaigns, lead generation and direct sales via phone."
+      },
+      "research": {
+        "title": "Market Research",
+        "desc": "Market analysis, surveys, focus groups and business insight collection."
+      },
+      "consulting": {
+        "title": "Business Consulting",
+        "desc": "Strategic consulting for business process optimization and growth."
+      },
+      "data": {
+        "title": "Data Processing",
+        "desc": "Entry, validation, analysis and management of business data."
+      },
+      "it": {
+        "title": "IT Support",
+        "desc": "Help desk, system maintenance and technical infrastructure."
+      },
+      "training": {
+        "title": "Employee Training",
+        "desc": "Training programs tailored to your processes and quality standards."
+      }
+    }
+  },
+  "about": {
+    "label": "About us",
+    "title": "Primexus Global D.O.O.",
+    "subtitle": "A company headquartered in Ljig, dedicated to delivering premium BPO and CX services across Europe.",
+    "desc": "Primexus Global provides customer and technical support services in foreign languages, call center services, administrative and business support, outsourcing services for domestic and international companies, telemarketing, market research, business consulting, data processing, IT support, employee training and other legally permitted activities.",
+    "activity": "Activity code",
+    "activityCode": "82.20 — Call center activities",
+    "address": "Registered address",
+    "addressValue": "Kralja Petra bb, 14240 Ljig, Republic of Serbia",
+    "legal": "Legal status",
+    "legalValue": "Limited Liability Company (LLC)",
+    "founder": "Founder & legal representative",
+    "founderValue": "Same person",
+    "values": {
+      "title": "Our values",
+      "people": "People first",
+      "peopleDesc": "We invest in our team and create an environment where everyone can grow.",
+      "quality": "Quality without compromise",
+      "qualityDesc": "Every customer interaction represents your brand — we take that seriously.",
+      "innovation": "Innovation & adaptability",
+      "innovationDesc": "We use modern tools and methods for maximum efficiency.",
+      "partnership": "Partnership",
+      "partnershipDesc": "We build long-term relationships based on trust and transparency."
+    }
+  },
+  "locations": {
+    "label": "European presence",
+    "title": "Covering Europe",
+    "subtitle": "Our services are available to clients across Europe — headquartered in Serbia with a partner network.",
+    "hq": "Company headquarters",
+    "hqLocation": "Ljig, Serbia",
+    "regions": {
+      "title": "Coverage regions",
+      "balkans": "Western Balkans",
+      "cee": "Central & Eastern Europe",
+      "dach": "DACH Region",
+      "nordics": "Nordic Countries",
+      "west": "Western Europe",
+      "south": "Southern Europe"
+    },
+    "languages": "Support languages",
+    "langList": "Serbian, English, German, French, Italian, Spanish, Dutch and more"
+  },
+  "careers": {
+    "label": "Careers",
+    "title": "High ambitions welcome",
+    "subtitle": "Join a team that supports leading brands. Work from home or office — your choice.",
+    "benefit1": "Remote work",
+    "benefit1Desc": "Flexible work models adapted to modern lifestyle.",
+    "benefit2": "Career development",
+    "benefit2Desc": "Training, mentorship and clear advancement paths.",
+    "benefit3": "International environment",
+    "benefit3Desc": "Work with clients worldwide in foreign languages.",
+    "benefit4": "Stability",
+    "benefit4Desc": "Long-term contracts and secure work environment.",
+    "cta": "Send your CV",
+    "ctaDesc": "Interested? Send us your resume and we'll get back to you."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's start something great",
+    "subtitle": "We're ready to discuss your needs. Get in touch.",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "company": "Company",
+      "message": "Message",
+      "send": "Send message",
+      "success": "Thank you! Your message has been sent."
+    }
+  },
+  "footer": {
+    "desc": "Primexus Global D.O.O. — premium BPO and CX services from the heart of Europe.",
+    "company": "Company",
+    "services": "Services",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved."
+  }
+}

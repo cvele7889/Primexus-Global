@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "locations": "Standorte",
+    "careers": "Karriere",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Europäischer CX-Dienstleistungsführer",
+    "title1": "Wir definieren",
+    "title2": "Kundenerlebnisse neu.",
+    "title3": "Ihr Erfolg, unsere Priorität.",
+    "subtitle": "Primexus Global bietet erstklassigen Kunden- und technischen Support in Fremdsprachen, mit Fokus auf Europa und globale Partner.",
+    "cta1": "Zusammenarbeit starten",
+    "cta2": "Dienstleistungen entdecken",
+    "stat1": "Europäische Märkte",
+    "stat2": "Support-Sprachen",
+    "stat3": "Verfügbarkeit",
+    "stat4": "Qualitätsverpflichtung"
+  },
+  "trusted": {
+    "title": "Vertrauenswürdiger Partner für Outsourcing & CX",
+    "subtitle": "Wir bieten komplette Lösungen für inländische und internationale Unternehmen — von Call Centern bis zur Unternehmensberatung."
+  },
+  "services": {
+    "label": "Unsere Dienstleistungen",
+    "title": "Umfassende Unterstützung für Ihr Unternehmen",
+    "subtitle": "Vom Kundensupport bis zu IT-Lösungen — wir decken das gesamte Spektrum geschäftlicher Anforderungen ab.",
+    "items": {
+      "customer": {
+        "title": "Kundensupport",
+        "desc": "Professioneller Kundensupport in mehreren Fremdsprachen, 24/7 Verfügbarkeit und hohe Zufriedenheitsraten."
+      },
+      "technical": {
+        "title": "Technischer Support",
+        "desc": "Experten-IT- und technische Unterstützung für Ihre Produkte und Dienstleistungen, schnelle Problemlösung."
+      },
+      "callcenter": {
+        "title": "Call Center",
+        "desc": "Inbound- und Outbound-Call-Center-Dienste — Telemarketing, Vertrieb, Information und Support."
+      },
+      "admin": {
+        "title": "Administrative Unterstützung",
+        "desc": "Geschäfts- und administrative Unterstützung, die Ihr Team für strategische Aufgaben freisetzt."
+      },
+      "outsourcing": {
+        "title": "Outsourcing",
+        "desc": "Komplette Outsourcing-Dienstleistungen für inländische und internationale Unternehmen — flexibel und skalierbar."
+      },
+      "telemarketing": {
+        "title": "Telemarketing",
+        "desc": "Gezielte Kampagnen, Lead-Generierung und Direktverkauf per Telefon."
+      },
+      "research": {
+        "title": "Marktforschung",
+        "desc": "Marktanalyse, Umfragen, Fokusgruppen und Sammlung geschäftlicher Erkenntnisse."
+      },
+      "consulting": {
+        "title": "Unternehmensberatung",
+        "desc": "Strategische Beratung zur Optimierung von Geschäftsprozessen und Wachstum."
+      },
+      "data": {
+        "title": "Datenverarbeitung",
+        "desc": "Eingabe, Validierung, Analyse und Verwaltung von Geschäftsdaten."
+      },
+      "it": {
+        "title": "IT-Support",
+        "desc": "Help Desk, Systemwartung und technische Infrastruktur."
+      },
+      "training": {
+        "title": "Mitarbeiterschulung",
+        "desc": "Schulungsprogramme, die auf Ihre Prozesse und Qualitätsstandards zugeschnitten sind."
+      }
+    }
+  },
+  "about": {
+    "label": "Über das Unternehmen",
+    "title": "Primexus Global D.O.O.",
+    "subtitle": "Ein Unternehmen mit Sitz in Ljig, das sich der Bereitstellung erstklassiger BPO- und CX-Dienstleistungen in ganz Europa widmet.",
+    "desc": "Primexus Global bietet Kunden- und technischen Support in Fremdsprachen, Call-Center-Dienstleistungen, administrative und geschäftliche Unterstützung, Outsourcing-Dienstleistungen für inländische und internationale Unternehmen, Telemarketing, Marktforschung, Unternehmensberatung, Datenverarbeitung, IT-Support, Mitarbeiterschulung und andere gesetzlich zulässige Tätigkeiten.",
+    "activity": "Tätigkeitscode",
+    "activityCode": "82.20 — Call-Center-Tätigkeiten",
+    "address": "Firmensitz",
+    "addressValue": "Kralja Petra bb, 14240 Ljig, Republik Serbien",
+    "legal": "Rechtsstatus",
+    "legalValue": "Gesellschaft mit beschränkter Haftung (GmbH)",
+    "founder": "Gründer & gesetzlicher Vertreter",
+    "founderValue": "Dieselbe Person",
+    "values": {
+      "title": "Unsere Werte",
+      "people": "Menschen an erster Stelle",
+      "peopleDesc": "Wir investieren in unser Team und schaffen ein Umfeld, in dem jeder wachsen kann.",
+      "quality": "Qualität ohne Kompromisse",
+      "qualityDesc": "Jede Kundeninteraktion repräsentiert Ihre Marke — das nehmen wir ernst.",
+      "innovation": "Innovation & Anpassungsfähigkeit",
+      "innovationDesc": "Wir nutzen moderne Tools und Methoden für maximale Effizienz.",
+      "partnership": "Partnerschaft",
+      "partnershipDesc": "Wir bauen langfristige Beziehungen auf Vertrauen und Transparenz auf."
+    }
+  },
+  "locations": {
+    "label": "Europäische Präsenz",
+    "title": "Wir decken Europa ab",
+    "subtitle": "Unsere Dienstleistungen stehen Kunden in ganz Europa zur Verfügung — mit Sitz in Serbien und einem Partnernetzwerk.",
+    "hq": "Firmensitz",
+    "hqLocation": "Ljig, Serbien",
+    "regions": {
+      "title": "Abdeckungsregionen",
+      "balkans": "Westlicher Balkan",
+      "cee": "Mittel- & Osteuropa",
+      "dach": "DACH-Region",
+      "nordics": "Nordische Länder",
+      "west": "Westeuropa",
+      "south": "Südeuropa"
+    },
+    "languages": "Support-Sprachen",
+    "langList": "Serbisch, Englisch, Deutsch, Französisch, Italienisch, Spanisch, Niederländisch und mehr"
+  },
+  "careers": {
+    "label": "Karriere",
+    "title": "Hohe Ambitionen willkommen",
+    "subtitle": "Werden Sie Teil eines Teams, das führende Marken unterstützt. Homeoffice oder Büro — Ihre Wahl.",
+    "benefit1": "Remote-Arbeit",
+    "benefit1Desc": "Flexible Arbeitsmodelle, angepasst an den modernen Lebensstil.",
+    "benefit2": "Karriereentwicklung",
+    "benefit2Desc": "Schulungen, Mentoring und klare Aufstiegsmöglichkeiten.",
+    "benefit3": "Internationales Umfeld",
+    "benefit3Desc": "Arbeit mit Kunden weltweit in Fremdsprachen.",
+    "benefit4": "Stabilität",
+    "benefit4Desc": "Langfristige Verträge und sicheres Arbeitsumfeld.",
+    "cta": "Lebenslauf senden",
+    "ctaDesc": "Interessiert? Senden Sie uns Ihren Lebenslauf und wir melden uns bei Ihnen."
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Lassen Sie uns etwas Großartiges beginnen",
+    "subtitle": "Wir sind bereit, über Ihre Bedürfnisse zu sprechen. Kontaktieren Sie uns.",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet."
+    }
+  },
+  "footer": {
+    "desc": "Primexus Global D.O.O. — erstklassige BPO- und CX-Dienstleistungen aus dem Herzen Europas.",
+    "company": "Unternehmen",
+    "services": "Dienstleistungen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

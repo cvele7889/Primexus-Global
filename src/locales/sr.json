@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Početna",
+    "services": "Usluge",
+    "about": "O nama",
+    "locations": "Lokacije",
+    "careers": "Karijera",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Evropski lider u CX uslugama",
+    "title1": "Redefinišemo",
+    "title2": "korisničko iskustvo.",
+    "title3": "Vaš uspeh, naš prioritet.",
+    "subtitle": "Primexus Global pruža vrhunske usluge korisničke i tehničke podrške na stranim jezicima, sa fokusom na Evropu i globalne partnere.",
+    "cta1": "Započnimo saradnju",
+    "cta2": "Istraži usluge",
+    "stat1": "Evropskih tržišta",
+    "stat2": "Jezika podrške",
+    "stat3": "Dostupnost",
+    "stat4": "Posvećenost kvalitetu"
+  },
+  "trusted": {
+    "title": "Pouzdani partner za outsourcing i CX",
+    "subtitle": "Pružamo kompletna rešenja za domaće i inostrane kompanije — od pozivnih centara do poslovnog savetovanja."
+  },
+  "services": {
+    "label": "Naše usluge",
+    "title": "Kompletna podrška za vaš biznis",
+    "subtitle": "Od korisničke podrške do IT rešenja — pokrivamo celokupan spektar poslovnih potreba.",
+    "items": {
+      "customer": {
+        "title": "Korisnička podrška",
+        "desc": "Profesionalna podrška korisnicima na više stranih jezika, 24/7 dostupnost i visok nivo zadovoljstva."
+      },
+      "technical": {
+        "title": "Tehnička podrška",
+        "desc": "Stručna IT i tehnička pomoć za vaše proizvode i usluge, brzo rešavanje problema."
+      },
+      "callcenter": {
+        "title": "Pozivni centar",
+        "desc": "Inbound i outbound call centar usluge — telemarketing, prodaja, informisanje i podrška."
+      },
+      "admin": {
+        "title": "Administrativna podrška",
+        "desc": "Poslovna i administrativna podrška koja oslobađa vaš tim za strateške zadatke."
+      },
+      "outsourcing": {
+        "title": "Outsourcing",
+        "desc": "Kompletne outsourcing usluge za domaće i inostrane kompanije — fleksibilno i skalabilno."
+      },
+      "telemarketing": {
+        "title": "Telemarketing",
+        "desc": "Ciljane kampanje, generisanje leadova i direktna prodaja putem telefona."
+      },
+      "research": {
+        "title": "Istraživanje tržišta",
+        "desc": "Analiza tržišta, ankete, fokus grupe i prikupljanje poslovnih uvida."
+      },
+      "consulting": {
+        "title": "Poslovno savetovanje",
+        "desc": "Strateško savetovanje za optimizaciju poslovnih procesa i rast."
+      },
+      "data": {
+        "title": "Obrada podataka",
+        "desc": "Unos, validacija, analiza i upravljanje poslovnim podacima."
+      },
+      "it": {
+        "title": "IT podrška",
+        "desc": "Help desk, održavanje sistema i tehnička infrastruktura."
+      },
+      "training": {
+        "title": "Obuka zaposlenih",
+        "desc": "Programi obuke prilagođeni vašim procesima i standardima kvaliteta."
+      }
+    }
+  },
+  "about": {
+    "label": "O kompaniji",
+    "title": "Primexus Global D.O.O.",
+    "subtitle": "Društvo sa sedištem u Ljigu, posvećeno pružanju vrhunskih BPO i CX usluga širom Evrope.",
+    "desc": "Primexus Global se bavi pružanjem usluga korisničke i tehničke podrške na stranim jezicima, uslugama pozivnog centra, administrativnom i poslovnom podrškom, outsourcing uslugama za domaće i inostrane kompanije, telemarketingom, istraživanjem tržišta, poslovnim savetovanjem, obradom podataka, IT podrškom, obukom zaposlenih i drugim zakonom dozvoljenim delatnostima.",
+    "activity": "Šifra delatnosti",
+    "activityCode": "82.20 — Delatnost pozivnih centara",
+    "address": "Adresa sedišta",
+    "addressValue": "Kralja Petra bb, 14240 Ljig, Republika Srbija",
+    "legal": "Pravni status",
+    "legalValue": "Društvo sa ograničenom odgovornošću (D.O.O.)",
+    "founder": "Osnivač i zakonski zastupnik",
+    "founderValue": "Ista osoba",
+    "values": {
+      "title": "Naše vrednosti",
+      "people": "Ljudi na prvom mestu",
+      "peopleDesc": "Investiramo u naš tim i stvaramo okruženje u kome svako može da raste.",
+      "quality": "Kvalitet bez kompromisa",
+      "qualityDesc": "Svaka interakcija sa korisnikom predstavlja vaš brend — mi to shvatamo ozbiljno.",
+      "innovation": "Inovacija i prilagodljivost",
+      "innovationDesc": "Koristimo moderne alate i metode za maksimalnu efikasnost.",
+      "partnership": "Partnerstvo",
+      "partnershipDesc": "Gradimo dugoročne odnose zasnovane na poverenju i transparentnosti."
+    }
+  },
+  "locations": {
+    "label": "Evropska prisutnost",
+    "title": "Pokrivamo Evropu",
+    "subtitle": "Naše usluge su dostupne klijentima širom Evrope — sa sedištem u Srbiji i mrežom partnera.",
+    "hq": "Sedište kompanije",
+    "hqLocation": "Ljig, Srbija",
+    "regions": {
+      "title": "Regioni pokrivanja",
+      "balkans": "Zapadni Balkan",
+      "cee": "Centralna i Istočna Evropa",
+      "dach": "DACH region",
+      "nordics": "Nordijske zemlje",
+      "west": "Zapadna Evropa",
+      "south": "Južna Evropa"
+    },
+    "languages": "Jezici podrške",
+    "langList": "Srpski, Engleski, Nemački, Francuski, Italijanski, Španski, Holandski i drugi"
+  },
+  "careers": {
+    "label": "Karijera",
+    "title": "Visoke ambicije su dobrodošle",
+    "subtitle": "Budite deo tima koji podržava vodeće brendove. Rad od kuće ili iz kancelarije — vaš izbor.",
+    "benefit1": "Rad od kuće",
+    "benefit1Desc": "Fleksibilni modeli rada prilagođeni modernom načinu života.",
+    "benefit2": "Razvoj karijere",
+    "benefit2Desc": "Obuke, mentorstvo i jasne puteve napredovanja.",
+    "benefit3": "Međunarodno okruženje",
+    "benefit3Desc": "Rad sa klijentima iz celog sveta na stranim jezicima.",
+    "benefit4": "Stabilnost",
+    "benefit4Desc": "Dugoročni ugovori i sigurno radno okruženje.",
+    "cta": "Pošaljite CV",
+    "ctaDesc": "Zainteresovani ste? Pošaljite nam svoju biografiju i javićemo vam se."
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Započnimo nešto sjajno",
+    "subtitle": "Spremni smo da razgovaramo o vašim potrebama. Javite nam se.",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "address": "Adresa",
+    "form": {
+      "name": "Ime i prezime",
+      "email": "E-mail adresa",
+      "company": "Kompanija",
+      "message": "Poruka",
+      "send": "Pošalji poruku",
+      "success": "Hvala! Vaša poruka je poslata."
+    }
+  },
+  "footer": {
+    "desc": "Primexus Global D.O.O. — vrhunske BPO i CX usluge iz srca Evrope.",
+    "company": "Kompanija",
+    "services": "Usluge",
+    "legal": "Pravno",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korišćenja",
+    "rights": "Sva prava zadržana."
+  }
+}
