@@ -32,14 +32,15 @@ npm run preview
 
 ## Deploy (GitHub Pages)
 
-**One-time setup** (required):
+**One-time setup:**
 
 1. Open [Settings → Pages](https://github.com/cvele7889/Primexus-Global/settings/pages)
-2. Under **Build and deployment → Source**, select **GitHub Actions**
-3. Save
+2. Under **Build and deployment → Source**, select **Deploy from a branch**
+3. Branch: **gh-pages**, folder: **/ (root)**
+4. Click **Save**
 
-Every push to `main` triggers automatic deploy via GitHub Actions.
+If `gh-pages` branch is not in the list yet, wait for the first successful GitHub Actions run to finish — it creates the branch automatically.
+
+Every push to `main` builds and updates the site.
 
 Live URL: **https://cvele7889.github.io/Primexus-Global/**
-
-If deploy fails with `Get Pages site failed`, Pages source is not set to **GitHub Actions** — repeat step 1–3 above.
