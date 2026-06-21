@@ -1,5 +1,6 @@
 .success-showcase {
-  background: var(--color-bg);
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .success-block {
@@ -7,8 +8,7 @@
 }
 
 .success-block-alt {
-  background: var(--color-bg-alt);
-  border-top: 1px solid var(--color-border);
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
 

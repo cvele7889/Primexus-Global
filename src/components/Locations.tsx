@@ -28,16 +28,18 @@ export default function Locations() {
         <div className="locations-grid">
           <div className="locations-map">
             <EuropeMap />
-            <div className="hq-badge">
-              <span className="hq-dot" />
-              <div>
-                <strong>{t('locations.hq')}</strong>
-                <span>{t('locations.hqLocation')}</span>
-              </div>
-            </div>
           </div>
 
           <div className="locations-info">
+            <div className="hq-card">
+              <span className="hq-card-icon">📍</span>
+              <div>
+                <strong>{t('locations.hq')}</strong>
+                <span>{t('locations.hqLocation')}</span>
+                <p>{t('locations.hqDesc')}</p>
+              </div>
+            </div>
+
             <h3>{t('locations.regions.title')}</h3>
             <div className="regions-list">
               {regionKeys.map((key) => (

@@ -146,6 +146,7 @@
     "subtitle": "Our services are available to clients across Europe — headquartered in Serbia with a partner network.",
     "hq": "Company headquarters",
     "hqLocation": "Ljig, Serbia",
+    "hqDesc": "Primexus Global D.O.O. headquarters — coordinating services for clients across Europe.",
     "regions": {
       "title": "Coverage regions",
       "balkans": "Western Balkans",
@@ -158,7 +159,7 @@
     "languages": "Support languages",
     "langList": "Serbian, English, German, French, Italian, Spanish, Dutch and more",
     "legendHub": "Operational hubs",
-    "legendCoverage": "Service coverage"
+    "legendCoverage": "Active service coverage"
   },
   "jobs": {
     "title": "Open positions",

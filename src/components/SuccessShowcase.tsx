@@ -108,26 +108,26 @@ export default function SuccessShowcase() {
 
   return (
     <section className="success-showcase">
-      <div className="success-block">
-        <div className="container success-grid">
-          <div className="success-content">
-            <span className="section-label">{t('success.label')}</span>
-            <h2 className="section-title">{t('success.title1')}</h2>
-            <p className="section-subtitle">{t('success.subtitle1')}</p>
-            <a href="#positions" className="btn btn-primary">{t('success.cta1')}</a>
-          </div>
-          <ImageSlider slides={SLIDES} prefix="success" />
-        </div>
-      </div>
-
       <div className="success-block success-block-alt">
         <div className="container success-grid reverse">
           <div className="success-content">
+            <span className="section-label">{t('success.label')}</span>
             <h2 className="section-title">{t('success.title2')}</h2>
             <p className="section-subtitle">{t('success.subtitle2')}</p>
-            <a href="#positions" className="btn btn-outline">{t('success.cta2')}</a>
+            <a href="#positions" className="btn btn-primary">{t('success.cta2')}</a>
           </div>
           <ImageSlider slides={REMOTE_SLIDES} prefix="success.remote" />
+        </div>
+      </div>
+
+      <div className="success-block">
+        <div className="container success-grid">
+          <div className="success-content">
+            <h2 className="section-title">{t('success.title1')}</h2>
+            <p className="section-subtitle">{t('success.subtitle1')}</p>
+            <a href="#positions" className="btn btn-outline">{t('success.cta1')}</a>
+          </div>
+          <ImageSlider slides={SLIDES} prefix="success" />
         </div>
       </div>
     </section>

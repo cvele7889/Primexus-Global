@@ -15,11 +15,11 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <SuccessShowcase />
         <Trusted />
         <Services />
         <About />
         <Locations />
-        <SuccessShowcase />
         <Careers />
         <Contact />
       </main>

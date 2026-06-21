@@ -146,6 +146,7 @@
     "subtitle": "Unsere Dienstleistungen stehen Kunden in ganz Europa zur Verfügung — mit Sitz in Serbien und einem Partnernetzwerk.",
     "hq": "Firmensitz",
     "hqLocation": "Ljig, Serbien",
+    "hqDesc": "Hauptsitz von Primexus Global D.O.O. — Koordination von Dienstleistungen für Kunden in ganz Europa.",
     "regions": {
       "title": "Abdeckungsregionen",
       "balkans": "Westlicher Balkan",
@@ -158,7 +159,7 @@
     "languages": "Support-Sprachen",
     "langList": "Serbisch, Englisch, Deutsch, Französisch, Italienisch, Spanisch, Niederländisch und mehr",
     "legendHub": "Operative Zentren",
-    "legendCoverage": "Service-Abdeckung"
+    "legendCoverage": "Aktive Service-Abdeckung"
   },
   "jobs": {
     "title": "Offene Stellen",

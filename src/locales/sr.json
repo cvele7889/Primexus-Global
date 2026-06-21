@@ -146,6 +146,7 @@
     "subtitle": "Naše usluge su dostupne klijentima širom Evrope — sa sedištem u Srbiji i mrežom partnera.",
     "hq": "Sedište kompanije",
     "hqLocation": "Ljig, Srbija",
+    "hqDesc": "Centralno sedište Primexus Global D.O.O. — odakle koordiniramo usluge za klijente širom Evrope.",
     "regions": {
       "title": "Regioni pokrivanja",
       "balkans": "Zapadni Balkan",
@@ -158,7 +159,7 @@
     "languages": "Jezici podrške",
     "langList": "Srpski, Engleski, Nemački, Francuski, Italijanski, Španski, Holandski i drugi",
     "legendHub": "Operativni centri",
-    "legendCoverage": "Pokrivenost usluga"
+    "legendCoverage": "Aktivna pokrivenost usluga"
   },
   "jobs": {
     "title": "Otvorene pozicije",
