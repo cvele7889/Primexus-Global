@@ -6,6 +6,7 @@ const languages = [
   { code: 'sr', label: 'SR' },
   { code: 'en', label: 'EN' },
   { code: 'de', label: 'DE' },
+  { code: 'ru', label: 'RU' },
 ]
 
 export default function Header() {

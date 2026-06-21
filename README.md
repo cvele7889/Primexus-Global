@@ -15,6 +15,7 @@ Corporate website for **Primexus Global D.O.O.** — BPO, call center and custom
 - Serbian (SR)
 - English (EN)
 - German (DE)
+- Russian (RU)
 
 ## Development
 
