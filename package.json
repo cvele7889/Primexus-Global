@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://cvele7889.github.io/Primexus-Global/",
+  "homepage": "https://primexusglobal.com/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
