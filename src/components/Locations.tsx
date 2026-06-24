@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import EuropeMap from './EuropeMap'
 import '../styles/locations.css'
 
-const regionKeys = ['balkans', 'cee', 'dach', 'nordics', 'west', 'south'] as const
+const regionKeys = ['balkans', 'cee', 'dach', 'nordics', 'west', 'south', 'middleEast', 'southAsia', 'eastAsia', 'southeastAsia'] as const
 
 const regionFlags: Record<string, string> = {
   balkans: '🇷🇸',
@@ -11,6 +11,10 @@ const regionFlags: Record<string, string> = {
   nordics: '🇸🇪',
   west: '🇫🇷',
   south: '🇮🇹',
+  middleEast: '🇦🇪',
+  southAsia: '🇮🇳',
+  eastAsia: '🇨🇳',
+  southeastAsia: '🇹🇭',
 }
 
 export default function Locations() {

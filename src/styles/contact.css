@@ -108,6 +108,28 @@
   width: 100%;
 }
 
+.recaptcha-notice {
+  margin: 14px 0 0;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  color: var(--color-text-dim);
+}
+
+.form-error {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 80, 80, 0.35);
+  background: rgba(255, 80, 80, 0.08);
+  color: #ff8a8a;
+  font-size: 0.875rem;
+}
+
+.contact-form .btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 @media (max-width: 768px) {
   .contact-grid {
     grid-template-columns: 1fr;

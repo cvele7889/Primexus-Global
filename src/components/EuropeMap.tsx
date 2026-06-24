@@ -15,13 +15,15 @@ export default function EuropeMap() {
   const [hovered, setHovered] = useState<string | null>(null)
   const [tooltip, setTooltip] = useState({ x: 0, y: 0, name: '' })
 
-  const { viewBox, width, height, countries, hqMarker } = mapData as {
+  const { viewBox, countries, hqMarker } = mapData as {
     viewBox: string
     width: number
     height: number
     countries: MapCountry[]
     hqMarker: { x: number; y: number }
   }
+
+  const [vbX, vbY, vbW, vbH] = viewBox.split(' ').map(Number)
 
   const handleMouseMove = (e: MouseEvent, name: string, id: string) => {
     const rect = e.currentTarget.closest('svg')?.getBoundingClientRect()
@@ -35,7 +37,13 @@ export default function EuropeMap() {
 
   return (
     <div className="europe-map-wrapper">
-      <svg viewBox={viewBox} className="europe-map-svg" preserveAspectRatio="xMidYMid meet" aria-label="Map of Europe">
+      <svg
+        viewBox={viewBox}
+        className="europe-map-svg"
+        style={{ aspectRatio: `${vbW} / ${vbH}` }}
+        preserveAspectRatio="xMidYMid meet"
+        aria-label={t('locations.mapLabel')}
+      >
         <defs>
           <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#071220" />
@@ -61,7 +69,7 @@ export default function EuropeMap() {
           </filter>
         </defs>
 
-        <rect width={width} height={height} fill="url(#oceanGrad)" rx="12" />
+        <rect x={vbX} y={vbY} width={vbW} height={vbH} fill="url(#oceanGrad)" />
 
         <g filter="url(#mapGlow)">
           {countries.map((c) => {

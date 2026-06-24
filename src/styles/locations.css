@@ -30,7 +30,6 @@
   width: 100%;
   display: block;
   height: auto;
-  aspect-ratio: 900 / 620;
 }
 
 .map-country {
@@ -189,10 +188,16 @@
 }
 
 .regions-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 10px;
   margin-bottom: 32px;
+}
+
+@media (min-width: 901px) {
+  .regions-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .region-item {

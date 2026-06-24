@@ -9,14 +9,14 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "badge": "Europäischer CX-Dienstleistungsführer",
+    "badge": "Europäischer & asiatischer CX-Dienstleistungsführer",
     "title1": "Wir definieren",
     "title2": "Kundenerlebnisse neu.",
     "title3": "Ihr Erfolg, unsere Priorität.",
-    "subtitle": "Primexus Global bietet erstklassigen Kunden- und technischen Support in Fremdsprachen, mit Fokus auf Europa und globale Partner.",
+    "subtitle": "Primexus Global bietet erstklassigen Kunden- und technischen Support in Fremdsprachen, mit Fokus auf Europa, Asien und globale Partner.",
     "cta1": "Zusammenarbeit starten",
     "cta2": "Dienstleistungen entdecken",
-    "stat1": "Europäische Märkte",
+    "stat1": "Europäische & asiatische Märkte",
     "stat2": "Support-Sprachen",
     "stat3": "Verfügbarkeit",
     "stat4": "Qualitätsverpflichtung"
@@ -28,7 +28,7 @@
   "success": {
     "label": "Karriere",
     "title1": "Ihr Erfolg ist unser Erfolg.",
-    "subtitle1": "Wir sind unermüdlich dem Erfolg unserer Kunden — und Ihrem — verpflichtet. Werden Sie Teil eines Teams, das führende Marken in Europa unterstützt.",
+    "subtitle1": "Wir sind unermüdlich dem Erfolg unserer Kunden — und Ihrem — verpflichtet. Werden Sie Teil eines Teams, das führende Marken in Europa und Asien unterstützt.",
     "cta1": "Offene Stellen entdecken",
     "title2": "Die Generation, die von überall arbeitet.",
     "subtitle2": "Bauen Sie eine großartige Karriere im Homeoffice auf. Flexible Arbeitsmodelle, Schulungen und Unterstützung vom ersten Tag an.",
@@ -47,7 +47,7 @@
     },
     "slide4": {
       "alt": "Geschäftskommunikation mit Kunden",
-      "caption": "Unterstützung führender Marken in Europa"
+      "caption": "Unterstützung führender Marken in Europa und Asien"
     },
     "remote": {
       "remote1": {
@@ -118,12 +118,12 @@
   "about": {
     "label": "Über das Unternehmen",
     "title": "Primexus Global D.O.O.",
-    "subtitle": "Ein Unternehmen mit Sitz in Ljig, das sich der Bereitstellung erstklassiger BPO- und CX-Dienstleistungen in ganz Europa widmet.",
+    "subtitle": "Ein Unternehmen mit Sitz in Serbien, das sich der Bereitstellung erstklassiger BPO- und CX-Dienstleistungen in ganz Europa und Asien widmet.",
     "desc": "Primexus Global bietet Kunden- und technischen Support in Fremdsprachen, Call-Center-Dienstleistungen, administrative und geschäftliche Unterstützung, Outsourcing-Dienstleistungen für inländische und internationale Unternehmen, Telemarketing, Marktforschung, Unternehmensberatung, Datenverarbeitung, IT-Support, Mitarbeiterschulung und andere gesetzlich zulässige Tätigkeiten.",
     "activity": "Tätigkeitscode",
     "activityCode": "82.20 — Call-Center-Tätigkeiten",
     "address": "Firmensitz",
-    "addressValue": "Kralja Petra bb, 14240 Ljig, Republik Serbien",
+    "addressValue": "Hadži Ruvimova br.4",
     "legal": "Rechtsstatus",
     "legalValue": "Gesellschaft mit beschränkter Haftung (GmbH)",
     "founder": "Gründer & gesetzlicher Vertreter",
@@ -141,12 +141,13 @@
     }
   },
   "locations": {
-    "label": "Europäische Präsenz",
-    "title": "Wir decken Europa ab",
-    "subtitle": "Unsere Dienstleistungen stehen Kunden in ganz Europa zur Verfügung — mit Sitz in Serbien und einem Partnernetzwerk.",
+    "label": "Europäische & asiatische Präsenz",
+    "title": "Wir decken Europa & Asien ab",
+    "subtitle": "Unsere Dienstleistungen stehen Kunden in ganz Europa und ganz Asien zur Verfügung — mit Sitz in Serbien und einem Partnernetzwerk.",
+    "mapLabel": "Karte der Abdeckung in Europa und Asien",
     "hq": "Firmensitz",
     "hqLocation": "Ljig, Serbien",
-    "hqDesc": "Hauptsitz von Primexus Global D.O.O. — Koordination von Dienstleistungen für Kunden in ganz Europa.",
+    "hqDesc": "Hauptsitz von Primexus Global D.O.O. — Koordination von Dienstleistungen für Kunden in ganz Europa und Asien.",
     "regions": {
       "title": "Abdeckungsregionen",
       "balkans": "Westlicher Balkan",
@@ -154,7 +155,11 @@
       "dach": "DACH-Region",
       "nordics": "Nordische Länder",
       "west": "Westeuropa",
-      "south": "Südeuropa"
+      "south": "Südeuropa",
+      "middleEast": "Naher Osten",
+      "southAsia": "Südasien",
+      "eastAsia": "Ostasien",
+      "southeastAsia": "Südostasien"
     },
     "languages": "Support-Sprachen",
     "langList": "Serbisch, Englisch, Deutsch, Russisch, Französisch, Italienisch, Spanisch, Niederländisch und mehr",
@@ -274,11 +279,16 @@
       "company": "Unternehmen",
       "message": "Nachricht",
       "send": "Nachricht senden",
-      "success": "Vielen Dank! Ihre Nachricht wurde gesendet."
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+      "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "captchaFailed": "Verifizierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "captchaNotice": "Diese Website ist durch Google reCAPTCHA v3 geschützt.",
+      "notConfigured": "Das Formular ist noch nicht konfiguriert. Bitte kontaktieren Sie uns per E-Mail."
     }
   },
   "footer": {
-    "desc": "Primexus Global D.O.O. — erstklassige BPO- und CX-Dienstleistungen aus dem Herzen Europas.",
+    "desc": "Primexus Global D.O.O. — erstklassige BPO- und CX-Dienstleistungen in ganz Europa und Asien.",
     "company": "Unternehmen",
     "services": "Dienstleistungen",
     "legal": "Rechtliches",

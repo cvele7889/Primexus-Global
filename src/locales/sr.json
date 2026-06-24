@@ -9,14 +9,14 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "badge": "Evropski lider u CX uslugama",
+    "badge": "Evropski i azijski lider u CX uslugama",
     "title1": "Redefinišemo",
     "title2": "korisničko iskustvo.",
     "title3": "Vaš uspeh, naš prioritet.",
-    "subtitle": "Primexus Global pruža vrhunske usluge korisničke i tehničke podrške na stranim jezicima, sa fokusom na Evropu i globalne partnere.",
+    "subtitle": "Primexus Global pruža vrhunske usluge korisničke i tehničke podrške na stranim jezicima, sa fokusom na Evropu, Aziju i globalne partnere.",
     "cta1": "Započnimo saradnju",
     "cta2": "Istraži usluge",
-    "stat1": "Evropskih tržišta",
+    "stat1": "Evropskih i azijskih tržišta",
     "stat2": "Jezika podrške",
     "stat3": "Dostupnost",
     "stat4": "Posvećenost kvalitetu"
@@ -28,7 +28,7 @@
   "success": {
     "label": "Karijera",
     "title1": "Tvoj uspeh je naš uspeh.",
-    "subtitle1": "Neumorno smo posvećeni uspehu naših klijenata — i tvom takođe. Budi deo tima koji podržava vodeće brendove širom Evrope.",
+    "subtitle1": "Neumorno smo posvećeni uspehu naših klijenata — i tvom takođe. Budi deo tima koji podržava vodeće brendove širom Evrope i Azije.",
     "cta1": "Istraži slobodna mesta",
     "title2": "Generacija koja radi s bilo kog mesta.",
     "subtitle2": "Izgradi sjajnu karijeru radeći od kuće. Fleksibilni modeli rada, obuke i podrška od prvog dana — jednako efikasno remote i iz kancelarije.",
@@ -47,7 +47,7 @@
     },
     "slide4": {
       "alt": "Poslovna komunikacija sa klijentima",
-      "caption": "Podrška vodećim brendovima u Evropi"
+      "caption": "Podrška vodećim brendovima u Evropi i Aziji"
     },
     "remote": {
       "remote1": {
@@ -118,12 +118,12 @@
   "about": {
     "label": "O kompaniji",
     "title": "Primexus Global D.O.O.",
-    "subtitle": "Društvo sa sedištem u Ljigu, posvećeno pružanju vrhunskih BPO i CX usluga širom Evrope.",
+    "subtitle": "Društvo sa sedištem u Srbiji, posvećeno pružanju vrhunskih BPO i CX usluga širom Evrope i Azije.",
     "desc": "Primexus Global se bavi pružanjem usluga korisničke i tehničke podrške na stranim jezicima, uslugama pozivnog centra, administrativnom i poslovnom podrškom, outsourcing uslugama za domaće i inostrane kompanije, telemarketingom, istraživanjem tržišta, poslovnim savetovanjem, obradom podataka, IT podrškom, obukom zaposlenih i drugim zakonom dozvoljenim delatnostima.",
     "activity": "Šifra delatnosti",
     "activityCode": "82.20 — Delatnost pozivnih centara",
     "address": "Adresa sedišta",
-    "addressValue": "Kralja Petra bb, 14240 Ljig, Republika Srbija",
+    "addressValue": "Hadži Ruvimova br.4",
     "legal": "Pravni status",
     "legalValue": "Društvo sa ograničenom odgovornošću (D.O.O.)",
     "founder": "Osnivač i zakonski zastupnik",
@@ -141,12 +141,13 @@
     }
   },
   "locations": {
-    "label": "Evropska prisutnost",
-    "title": "Pokrivamo Evropu",
-    "subtitle": "Naše usluge su dostupne klijentima širom Evrope — sa sedištem u Srbiji i mrežom partnera.",
+    "label": "Evropska i azijska prisutnost",
+    "title": "Pokrivamo Evropu i Aziju",
+    "subtitle": "Naše usluge su dostupne klijentima širom Evrope i cele Azije — sa sedištem u Srbiji i mrežom partnera.",
+    "mapLabel": "Mapa pokrivenosti Evrope i Azije",
     "hq": "Sedište kompanije",
     "hqLocation": "Ljig, Srbija",
-    "hqDesc": "Centralno sedište Primexus Global D.O.O. — odakle koordiniramo usluge za klijente širom Evrope.",
+    "hqDesc": "Centralno sedište Primexus Global D.O.O. — odakle koordiniramo usluge za klijente širom Evrope i Azije.",
     "regions": {
       "title": "Regioni pokrivanja",
       "balkans": "Zapadni Balkan",
@@ -154,7 +155,11 @@
       "dach": "DACH region",
       "nordics": "Nordijske zemlje",
       "west": "Zapadna Evropa",
-      "south": "Južna Evropa"
+      "south": "Južna Evropa",
+      "middleEast": "Bliski istok",
+      "southAsia": "Južna Azija",
+      "eastAsia": "Istočna Azija",
+      "southeastAsia": "Jugoistočna Azija"
     },
     "languages": "Jezici podrške",
     "langList": "Srpski, Engleski, Nemački, Ruski, Francuski, Italijanski, Španski, Holandski i drugi",
@@ -274,11 +279,16 @@
       "company": "Kompanija",
       "message": "Poruka",
       "send": "Pošalji poruku",
-      "success": "Hvala! Vaša poruka je poslata."
+      "sending": "Slanje...",
+      "success": "Hvala! Vaša poruka je poslata.",
+      "error": "Poruka nije poslata. Pokušajte ponovo.",
+      "captchaFailed": "Verifikacija nije uspela. Pokušajte ponovo.",
+      "captchaNotice": "Ovaj sajt je zaštićen reCAPTCHA v3 tehnologijom Google-a.",
+      "notConfigured": "Forma trenutno nije podešena. Kontaktirajte nas putem e-maila."
     }
   },
   "footer": {
-    "desc": "Primexus Global D.O.O. — vrhunske BPO i CX usluge iz srca Evrope.",
+    "desc": "Primexus Global D.O.O. — vrhunske BPO i CX usluge širom Evrope i Azije.",
     "company": "Kompanija",
     "services": "Usluge",
     "legal": "Pravno",
