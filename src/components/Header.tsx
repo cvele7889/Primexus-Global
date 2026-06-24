@@ -20,6 +20,13 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? 'hidden' : ''
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [menuOpen])
+
   const changeLang = (code: string) => {
     i18n.changeLanguage(code)
     localStorage.setItem('primexus-lang', code)
@@ -38,49 +45,52 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <header className={`header ${scrolled ? 'scrolled' : ''}`}>
-      <div className="container header-inner">
-        <a href="#home" className="logo">
-          <div className="logo-icon">P</div>
-          <div className="logo-text">
-            Primexus <span>Global</span>
-          </div>
-        </a>
+    <>
+      <header className={`header ${scrolled ? 'scrolled' : ''}`}>
+        <div className="container header-inner">
+          <a href="#home" className="logo" onClick={closeMenu}>
+            <div className="logo-icon">P</div>
+            <div className="logo-text">
+              Primexus <span>Global</span>
+            </div>
+          </a>
 
-        <nav className="nav-desktop">
-          {navLinks.map((link) => (
-            <a key={link.href} href={link.href}>{link.label}</a>
-          ))}
-        </nav>
-
-        <div className="header-actions">
-          <div className="lang-switcher">
-            {languages.map((lang) => (
-              <button
-                key={lang.code}
-                className={`lang-btn ${i18n.language === lang.code ? 'active' : ''}`}
-                onClick={() => changeLang(lang.code)}
-              >
-                {lang.label}
-              </button>
+          <nav className="nav-desktop">
+            {navLinks.map((link) => (
+              <a key={link.href} href={link.href}>{link.label}</a>
             ))}
-          </div>
-          <a href="#contact" className="btn btn-primary">{t('nav.contact')}</a>
-          <button
-            className={`menu-toggle ${menuOpen ? 'open' : ''}`}
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Menu"
-          >
-            <span /><span /><span />
-          </button>
-        </div>
-      </div>
+          </nav>
 
-      <nav className={`nav-mobile ${menuOpen ? 'open' : ''}`}>
+          <div className="header-actions">
+            <div className="lang-switcher">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  className={`lang-btn ${i18n.language === lang.code ? 'active' : ''}`}
+                  onClick={() => changeLang(lang.code)}
+                >
+                  {lang.label}
+                </button>
+              ))}
+            </div>
+            <a href="#contact" className="btn btn-primary">{t('nav.contact')}</a>
+            <button
+              className={`menu-toggle ${menuOpen ? 'open' : ''}`}
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Menu"
+              aria-expanded={menuOpen}
+            >
+              <span /><span /><span />
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <nav className={`nav-mobile ${menuOpen ? 'open' : ''}`} aria-hidden={!menuOpen}>
         {navLinks.map((link) => (
           <a key={link.href} href={link.href} onClick={closeMenu}>{link.label}</a>
         ))}
       </nav>
-    </header>
+    </>
   )
 }

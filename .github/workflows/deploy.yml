@@ -35,7 +35,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
-          VITE_RECAPTCHA_SITE_KEY: ${{ secrets.VITE_RECAPTCHA_SITE_KEY }}
+          VITE_RECAPTCHA_SITE_KEY: ${{ vars.VITE_RECAPTCHA_SITE_KEY || secrets.VITE_RECAPTCHA_SITE_KEY || '6LcFrTEtAAAAALS5d7SyA9zwfMM1yHB6U_v_C1tY' }}
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
