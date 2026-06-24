@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { mailtoHref } from '../config/contact'
 import '../styles/jobs.css'
 
 const jobIds = ['job1', 'job2', 'job3', 'job4', 'job5', 'job6', 'job7', 'job8'] as const
@@ -98,7 +99,7 @@ export default function JobListings() {
               </div>
             </div>
             <a
-              href={`mailto:primexus.business@outlook.com?subject=${encodeURIComponent(t(`jobs.items.${id}.title`))}`}
+              href={mailtoHref(t(`jobs.items.${id}.title`))}
               className="btn btn-primary job-apply"
             >
               {t('jobs.apply')}

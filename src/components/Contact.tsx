@@ -1,10 +1,10 @@
 import { useState, FormEvent } from 'react'
 import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3'
 import { useTranslation } from 'react-i18next'
+import { FORM_ENDPOINT, PRIMARY_EMAIL, SECONDARY_EMAIL } from '../config/contact'
 import '../styles/contact.css'
 
 const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY ?? ''
-const FORM_ENDPOINT = 'https://formsubmit.co/ajax/primexus.business@outlook.com'
 
 type ContactFormContentProps = {
   executeRecaptcha?: (action?: string) => Promise<string | undefined>
@@ -50,6 +50,7 @@ function ContactFormContent({ executeRecaptcha }: ContactFormContentProps) {
           _subject: 'Nova poruka sa Primexus Global sajta',
           _template: 'table',
           _captcha: 'false',
+          _cc: SECONDARY_EMAIL,
         }),
       })
 
@@ -83,7 +84,8 @@ function ContactFormContent({ executeRecaptcha }: ContactFormContentProps) {
               <span className="contact-item-icon">✉️</span>
               <div>
                 <strong>{t('contact.email')}</strong>
-                <a href="mailto:primexus.business@outlook.com">primexus.business@outlook.com</a>
+                <a href={`mailto:${PRIMARY_EMAIL}`}>{PRIMARY_EMAIL}</a>
+                <a href={`mailto:${SECONDARY_EMAIL}`} className="contact-email-secondary">{SECONDARY_EMAIL}</a>
               </div>
             </div>
             <div className="contact-item">

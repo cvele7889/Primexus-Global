@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { PRIMARY_EMAIL, SECONDARY_EMAIL } from '../config/contact'
 import '../styles/footer.css'
 
 export default function Footer() {
@@ -46,7 +47,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <span>© {year} Primexus Global D.O.O. {t('footer.rights')}</span>
-          <span>primexus.business@outlook.com</span>
+          <span>{PRIMARY_EMAIL} · {SECONDARY_EMAIL}</span>
         </div>
       </div>
     </footer>

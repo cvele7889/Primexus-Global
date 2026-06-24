@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { mailtoHref } from '../config/contact'
 import JobListings from './JobListings'
 import '../styles/careers.css'
 
@@ -38,7 +39,7 @@ export default function Careers() {
             <h3>{t('careers.cta')}</h3>
             <p>{t('careers.ctaDesc')}</p>
           </div>
-          <a href="mailto:primexus.business@outlook.com?subject=CV" className="btn btn-primary">
+          <a href={mailtoHref('CV')} className="btn btn-primary">
             {t('careers.cta')}
           </a>
         </div>

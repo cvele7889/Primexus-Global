@@ -7,7 +7,7 @@ Corporate website for **Primexus Global D.O.O.** — BPO, call center and custom
 - **Name:** Primexus Global D.O.O.
 - **Activity:** 82.20 — Call center activities
 - **Address:** Hadži Ruvimova br.4
-- **Email:** primexus.business@outlook.com
+- **Email:** info@primexusglobal.com (primexus.business@outlook.com)
 - **Phone:** +381 64 642 7802
 
 ## Languages
