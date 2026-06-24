@@ -1,7 +1,7 @@
 import { useState, FormEvent } from 'react'
 import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3'
 import { useTranslation } from 'react-i18next'
-import { FORM_ENDPOINT, PRIMARY_EMAIL, SECONDARY_EMAIL } from '../config/contact'
+import { FORM_ENDPOINT, PRIMARY_EMAIL, SECONDARY_EMAIL, PUBLIC_PHONE, formatPhoneDisplay, phoneHref } from '../config/contact'
 import '../styles/contact.css'
 
 const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY ?? ''
@@ -88,13 +88,15 @@ function ContactFormContent({ executeRecaptcha }: ContactFormContentProps) {
                 <a href={`mailto:${SECONDARY_EMAIL}`} className="contact-email-secondary">{SECONDARY_EMAIL}</a>
               </div>
             </div>
-            <div className="contact-item">
-              <span className="contact-item-icon">📞</span>
-              <div>
-                <strong>{t('contact.phone')}</strong>
-                <a href="tel:+381646427802">+381 64 642 7802</a>
+            {PUBLIC_PHONE ? (
+              <div className="contact-item">
+                <span className="contact-item-icon">📞</span>
+                <div>
+                  <strong>{t('contact.phone')}</strong>
+                  <a href={phoneHref(PUBLIC_PHONE)}>{formatPhoneDisplay(PUBLIC_PHONE)}</a>
+                </div>
               </div>
-            </div>
+            ) : null}
             <div className="contact-item">
               <span className="contact-item-icon">📍</span>
               <div>
