@@ -6,16 +6,28 @@
     "locations": "Standorte",
     "careers": "Karriere",
     "positions": "Offene Stellen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "getInTouch": "Kontakt aufnehmen"
   },
   "hero": {
-    "badge": "Europäischer & asiatischer CX-Dienstleistungsführer",
-    "title1": "Wir definieren",
-    "title2": "Kundenerlebnisse neu.",
-    "title3": "Ihr Erfolg, unsere Priorität.",
-    "subtitle": "Primexus Global bietet erstklassigen Kunden- und technischen Support in Fremdsprachen, mit Fokus auf Europa, Asien und globale Partner.",
-    "cta1": "Zusammenarbeit starten",
-    "cta2": "Dienstleistungen entdecken",
+    "badge": "Wir verbinden. Wir unterstützen. Wir wachsen gemeinsam.",
+    "title1": "Globaler Support.",
+    "title2": "Intelligente Lösungen.",
+    "title3": "",
+    "subtitle": "Primexus bietet Outsourcing, Telekommunikation und technischen Support — zuverlässige Lösungen für Unternehmen, die global wachsen wollen.",
+    "cta1": "Über uns",
+    "cta2": "Unsere Leistungen",
+    "cards": {
+      "customer": "Kundensupport",
+      "technical": "Technischer Support",
+      "telecom": "Telekommunikation",
+      "ai": "KI-Lösungen",
+      "backoffice": "Back-Office-Services"
+    },
+    "primexusAi": {
+      "title": "Primexus AI",
+      "greeting": "Hallo, ich bin Primexus. Wie kann ich helfen?"
+    },
     "stat1": "Europäische & asiatische Märkte",
     "stat2": "Support-Sprachen",
     "stat3": "Verfügbarkeit",
@@ -23,7 +35,17 @@
   },
   "trusted": {
     "title": "Vertrauenswürdiger Partner für Outsourcing & CX",
-    "subtitle": "Wir bieten komplette Lösungen für inländische und internationale Unternehmen — von Call Centern bis zur Unternehmensberatung."
+    "subtitle": "Wir bieten komplette Lösungen für inländische und internationale Unternehmen — von Call Centern bis zur Unternehmensberatung.",
+    "partners": {
+      "p1": "Ringover",
+      "p2": "DHL",
+      "p3": "Avaya",
+      "p4": "AWS",
+      "p5": "Five9",
+      "p6": "HubSpot",
+      "p7": "Zendesk",
+      "p8": "Microsoft"
+    }
   },
   "success": {
     "label": "Karriere",
@@ -80,6 +102,10 @@
       "callcenter": {
         "title": "Call Center",
         "desc": "Inbound- und Outbound-Call-Center-Dienste — Telemarketing, Vertrieb, Information und Support."
+      },
+      "ai": {
+        "title": "KI-Lösungen",
+        "desc": "Intelligente Automatisierung, Chatbots und KI-Assistenten für effizienteren Kundensupport."
       },
       "admin": {
         "title": "Administrative Unterstützung",

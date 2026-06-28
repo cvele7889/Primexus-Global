@@ -13,8 +13,8 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <div className="logo">
-              <Logo />
+            <div className="logo logo-wordmark-wrap">
+              <Logo variant="wordmark" />
             </div>
             <p>{t('footer.desc')}</p>
           </div>

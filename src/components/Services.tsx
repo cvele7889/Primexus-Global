@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next'
+import '../styles/glass.css'
 import '../styles/services.css'
 
 const serviceKeys = [
-  'customer', 'technical', 'callcenter', 'admin', 'outsourcing',
+  'customer', 'technical', 'callcenter', 'ai', 'admin', 'outsourcing',
   'telemarketing', 'research', 'consulting', 'data', 'it', 'training',
 ] as const
 
@@ -10,6 +11,7 @@ const serviceIcons: Record<string, string> = {
   customer: '💬',
   technical: '🔧',
   callcenter: '📞',
+  ai: '🤖',
   admin: '📋',
   outsourcing: '🔄',
   telemarketing: '📱',
@@ -34,7 +36,7 @@ export default function Services() {
 
         <div className="services-grid">
           {serviceKeys.map((key) => (
-            <div key={key} className="service-card">
+            <div key={key} id={`service-${key}`} className="service-card glass-card">
               <div className="service-icon">{serviceIcons[key]}</div>
               <h3>{t(`services.items.${key}.title`)}</h3>
               <p>{t(`services.items.${key}.desc`)}</p>

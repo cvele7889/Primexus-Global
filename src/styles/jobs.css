@@ -22,10 +22,11 @@
   align-items: flex-end;
   flex-wrap: wrap;
   padding: 24px;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  background: rgba(0, 14, 35, 0.55);
+  border: 1px solid rgba(0, 162, 255, 0.22);
   border-radius: var(--radius-lg);
   margin-bottom: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .filter-group {
@@ -84,15 +85,16 @@
   justify-content: space-between;
   gap: 24px;
   padding: 28px 32px;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  background: rgba(0, 14, 35, 0.55);
+  border: 1px solid rgba(0, 162, 255, 0.22);
   border-radius: var(--radius-lg);
+  backdrop-filter: blur(10px);
   transition: all var(--transition);
 }
 
 .job-card:hover {
-  border-color: var(--color-border-hover);
-  box-shadow: var(--shadow-glow);
+  border-color: rgba(0, 162, 255, 0.45);
+  box-shadow: 0 0 24px rgba(0, 100, 200, 0.15);
   transform: translateY(-2px);
 }
 

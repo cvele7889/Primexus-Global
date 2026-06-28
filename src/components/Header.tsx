@@ -36,11 +36,9 @@ export default function Header() {
 
   const navLinks = [
     { href: '#home', label: t('nav.home') },
-    { href: '#services', label: t('nav.services') },
     { href: '#about', label: t('nav.about') },
-    { href: '#locations', label: t('nav.locations') },
+    { href: '#services', label: t('nav.services') },
     { href: '#careers', label: t('nav.careers') },
-    { href: '#positions', label: t('nav.positions') },
     { href: '#contact', label: t('nav.contact') },
   ]
 
@@ -50,8 +48,8 @@ export default function Header() {
     <>
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-inner">
-          <a href="#home" className="logo" onClick={closeMenu}>
-            <Logo />
+          <a href="#home" className="logo logo-wordmark-link" onClick={closeMenu}>
+            <Logo variant="wordmark" />
           </a>
 
           <nav className="nav-desktop">
@@ -72,7 +70,7 @@ export default function Header() {
                 </button>
               ))}
             </div>
-            <a href="#contact" className="btn btn-primary">{t('nav.contact')}</a>
+            <a href="#contact" className="btn btn-header-cta">{t('nav.getInTouch')}</a>
             <button
               className={`menu-toggle ${menuOpen ? 'open' : ''}`}
               onClick={() => setMenuOpen(!menuOpen)}

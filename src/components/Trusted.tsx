@@ -1,21 +1,19 @@
 import { useTranslation } from 'react-i18next'
 import '../styles/trusted.css'
 
-const icons = ['🏢', '🌍', '⚡', '🛡️', '📊', '🎯']
+const partnerKeys = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8'] as const
 
 export default function Trusted() {
   const { t } = useTranslation()
 
   return (
     <section className="trusted">
-      <div className="container trusted-inner">
-        <div className="trusted-text">
-          <h2>{t('trusted.title')}</h2>
-          <p>{t('trusted.subtitle')}</p>
-        </div>
-        <div className="trusted-icons">
-          {icons.map((icon, i) => (
-            <div key={i} className="trusted-icon">{icon}</div>
+      <div className="container">
+        <div className="trusted-partners">
+          {partnerKeys.map((key) => (
+            <span key={key} className="trusted-partner">
+              {t(`trusted.partners.${key}`)}
+            </span>
           ))}
         </div>
       </div>

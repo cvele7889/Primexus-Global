@@ -63,21 +63,21 @@ export default function EuropeMap() {
           </linearGradient>
           <linearGradient id="coverageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#0077ee" stopOpacity="0.9" />
-            <stop offset="100%" stopColor="#00c896" stopOpacity="0.75" />
+            <stop offset="100%" stopColor="#00a2ff" stopOpacity="0.75" />
           </linearGradient>
           <linearGradient id="coverageHoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#0099ff" />
-            <stop offset="100%" stopColor="#00e5a0" />
+            <stop offset="100%" stopColor="#00c8ff" />
           </linearGradient>
           <linearGradient id="hqGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#00e5a0" />
-            <stop offset="100%" stopColor="#00a870" />
+            <stop offset="0%" stopColor="#00a2ff" />
+            <stop offset="100%" stopColor="#0077cc" />
           </linearGradient>
           <filter id="mapGlow">
             <feDropShadow dx="0" dy="0" stdDeviation="2" floodColor="#0066ff" floodOpacity="0.3" />
           </filter>
           <filter id="hqGlow">
-            <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#00e5a0" floodOpacity="0.6" />
+            <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#00a2ff" floodOpacity="0.6" />
           </filter>
         </defs>
 
@@ -93,7 +93,7 @@ export default function EuropeMap() {
                 d={c.path}
                 className={`map-country ${isHq ? 'map-hq' : 'map-coverage'} ${isHovered ? 'map-hover' : ''}`}
                 fill={isHq ? 'url(#hqGrad)' : isHovered ? 'url(#coverageHoverGrad)' : 'url(#coverageGrad)'}
-                stroke={isHq ? '#00e5a0' : isHovered ? '#66ddff' : 'rgba(0,200,160,0.35)'}
+                stroke={isHq ? '#00a2ff' : isHovered ? '#66ddff' : 'rgba(0,162,255,0.35)'}
                 strokeWidth={isHq ? 1.4 : 0.7}
                 filter={isHq ? 'url(#hqGlow)' : undefined}
                 onMouseEnter={() => setHovered(c.id)}
@@ -125,8 +125,8 @@ export default function EuropeMap() {
 
         <g className="hq-marker">
           <circle cx={hqMarker.x} cy={hqMarker.y} r="5" fill="#fff" opacity="0.9" />
-          <circle cx={hqMarker.x} cy={hqMarker.y} r="5" fill="#00e5a0" className="map-pulse-dot" />
-          <circle cx={hqMarker.x} cy={hqMarker.y} r="12" fill="none" stroke="#00e5a0" strokeWidth="1" opacity="0.45" className="map-ring" />
+          <circle cx={hqMarker.x} cy={hqMarker.y} r="5" fill="#00a2ff" className="map-pulse-dot" />
+          <circle cx={hqMarker.x} cy={hqMarker.y} r="12" fill="none" stroke="#00a2ff" strokeWidth="1" opacity="0.45" className="map-ring" />
         </g>
       </svg>
 

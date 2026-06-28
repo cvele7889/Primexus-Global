@@ -1,6 +1,6 @@
 .success-showcase {
-  background: var(--color-bg-alt);
-  border-bottom: 1px solid var(--color-border);
+  background: rgba(0, 4, 14, 0.55);
+  border-bottom: 1px solid rgba(0, 162, 255, 0.12);
 }
 
 .success-block {
@@ -8,8 +8,8 @@
 }
 
 .success-block-alt {
-  background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
+  background: rgba(0, 4, 14, 0.45);
+  border-bottom: 1px solid rgba(0, 162, 255, 0.1);
 }
 
 .success-grid {
@@ -42,8 +42,8 @@
   border-radius: var(--radius-xl);
   overflow: hidden;
   aspect-ratio: 16 / 10;
-  border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-glow);
+  border: 1px solid rgba(0, 162, 255, 0.28);
+  box-shadow: 0 0 32px rgba(0, 100, 200, 0.12);
 }
 
 .slider-track {

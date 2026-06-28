@@ -1,5 +1,5 @@
 .careers {
-  background: var(--color-bg-alt);
+  background: rgba(0, 4, 14, 0.55);
 }
 
 .careers-header {
@@ -9,10 +9,11 @@
 .careers-intro {
   margin-bottom: 48px;
   padding: 32px;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  background: rgba(0, 14, 35, 0.55);
+  border: 1px solid rgba(0, 162, 255, 0.28);
   border-radius: var(--radius-xl);
   border-left: 3px solid var(--color-accent);
+  backdrop-filter: blur(14px);
 }
 
 .careers-intro-lead {
@@ -85,7 +86,7 @@
   height: 7px;
   border-radius: 50%;
   background: var(--color-accent);
-  box-shadow: 0 0 8px rgba(0, 229, 160, 0.45);
+  box-shadow: 0 0 8px rgba(0, 162, 255, 0.45);
 }
 
 .careers-grid {
@@ -97,10 +98,11 @@
 
 .career-card {
   background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  border: 1px solid rgba(0, 162, 255, 0.18);
   border-radius: var(--radius-lg);
   padding: 28px;
   transition: all var(--transition);
+  backdrop-filter: blur(10px);
 }
 
 .career-card:hover {

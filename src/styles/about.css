@@ -1,5 +1,5 @@
 .about {
-  background: var(--color-bg-alt);
+  background: rgba(0, 4, 14, 0.5);
 }
 
 .about-grid {
@@ -29,9 +29,10 @@
   flex-direction: column;
   gap: 4px;
   padding: 16px;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  background: rgba(0, 14, 35, 0.55);
+  border: 1px solid rgba(0, 162, 255, 0.22);
   border-radius: var(--radius-md);
+  backdrop-filter: blur(10px);
 }
 
 .about-detail-label {
@@ -53,12 +54,13 @@
 }
 
 .about-card-main {
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  background: rgba(0, 14, 35, 0.55);
+  border: 1px solid rgba(0, 162, 255, 0.28);
   border-radius: var(--radius-xl);
   padding: 48px;
   text-align: center;
-  box-shadow: var(--shadow-glow);
+  box-shadow: 0 0 32px rgba(0, 100, 200, 0.1);
+  backdrop-filter: blur(14px);
   position: relative;
 }
 
@@ -81,7 +83,8 @@
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
-  background: rgba(0, 229, 160, 0.1);
+  background: rgba(0, 140, 255, 0.12);
+  border: 1px solid rgba(0, 162, 255, 0.25);
   border-radius: 100px;
   font-size: 0.875rem;
   color: var(--color-accent);
@@ -100,11 +103,12 @@
 }
 
 .value-card {
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
+  background: rgba(0, 14, 35, 0.55);
+  border: 1px solid rgba(0, 162, 255, 0.22);
   border-radius: var(--radius-lg);
   padding: 28px;
   text-align: center;
+  backdrop-filter: blur(10px);
   transition: all var(--transition);
 }
 

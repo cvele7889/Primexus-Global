@@ -6,16 +6,28 @@
     "locations": "Locations",
     "careers": "Careers",
     "positions": "Open positions",
-    "contact": "Contact"
+    "contact": "Contact",
+    "getInTouch": "Get in touch"
   },
   "hero": {
-    "badge": "European & Asian CX Services Leader",
-    "title1": "Redefining",
-    "title2": "customer experience.",
-    "title3": "Your success, our priority.",
-    "subtitle": "Primexus Global delivers premium customer and technical support in foreign languages, focused on Europe, Asia and global partners.",
-    "cta1": "Let's collaborate",
-    "cta2": "Explore services",
+    "badge": "We connect. We support. We grow together.",
+    "title1": "Global support.",
+    "title2": "Intelligent solutions.",
+    "title3": "",
+    "subtitle": "Primexus delivers outsourcing, telecommunications and technical support — reliable solutions for companies ready to grow on the global market.",
+    "cta1": "About us",
+    "cta2": "Our services",
+    "cards": {
+      "customer": "Customer Support",
+      "technical": "Technical Support",
+      "telecom": "Telecommunications",
+      "ai": "AI Solutions",
+      "backoffice": "Back Office Services"
+    },
+    "primexusAi": {
+      "title": "Primexus AI",
+      "greeting": "Hello, I am Primexus. How can I help you?"
+    },
     "stat1": "European & Asian markets",
     "stat2": "Support languages",
     "stat3": "Availability",
@@ -23,7 +35,17 @@
   },
   "trusted": {
     "title": "Trusted partner for outsourcing & CX",
-    "subtitle": "We provide complete solutions for domestic and international companies — from call centers to business consulting."
+    "subtitle": "We provide complete solutions for domestic and international companies — from call centers to business consulting.",
+    "partners": {
+      "p1": "Ringover",
+      "p2": "DHL",
+      "p3": "Avaya",
+      "p4": "AWS",
+      "p5": "Five9",
+      "p6": "HubSpot",
+      "p7": "Zendesk",
+      "p8": "Microsoft"
+    }
   },
   "success": {
     "label": "Careers",
@@ -80,6 +102,10 @@
       "callcenter": {
         "title": "Call Center",
         "desc": "Inbound and outbound call center services — telemarketing, sales, information and support."
+      },
+      "ai": {
+        "title": "AI Solutions",
+        "desc": "Smart automation, chatbots and AI assistants for faster, more efficient customer support."
       },
       "admin": {
         "title": "Administrative Support",

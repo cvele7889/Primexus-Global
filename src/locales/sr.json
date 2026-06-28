@@ -6,16 +6,28 @@
     "locations": "Lokacije",
     "careers": "Karijera",
     "positions": "Otvorene pozicije",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "getInTouch": "Kontaktirajte nas"
   },
   "hero": {
-    "badge": "Evropski i azijski lider u CX uslugama",
-    "title1": "Redefinišemo",
-    "title2": "korisničko iskustvo.",
-    "title3": "Vaš uspeh, naš prioritet.",
-    "subtitle": "Primexus Global pruža vrhunske usluge korisničke i tehničke podrške na stranim jezicima, sa fokusom na Evropu, Aziju i globalne partnere.",
-    "cta1": "Započnimo saradnju",
-    "cta2": "Istraži usluge",
+    "badge": "Povezujemo. Podržavamo. Rastemo zajedno.",
+    "title1": "Globalna podrška.",
+    "title2": "Inteligentna rešenja.",
+    "title3": "",
+    "subtitle": "Primexus pruža outsourcing, telekomunikacije i tehničku podršku — pouzdana rešenja za kompanije koje žele da rastu na globalnom tržištu.",
+    "cta1": "O nama",
+    "cta2": "Naše usluge",
+    "cards": {
+      "customer": "Korisnička podrška",
+      "technical": "Tehnička podrška",
+      "telecom": "Telekomunikacije",
+      "ai": "AI rešenja",
+      "backoffice": "Back office usluge"
+    },
+    "primexusAi": {
+      "title": "Primexus AI",
+      "greeting": "Zdravo, ja sam Primexus. Kako mogu da pomognem?"
+    },
     "stat1": "Evropskih i azijskih tržišta",
     "stat2": "Jezika podrške",
     "stat3": "Dostupnost",
@@ -23,7 +35,17 @@
   },
   "trusted": {
     "title": "Pouzdani partner za outsourcing i CX",
-    "subtitle": "Pružamo kompletna rešenja za domaće i inostrane kompanije — od pozivnih centara do poslovnog savetovanja."
+    "subtitle": "Pružamo kompletna rešenja za domaće i inostrane kompanije — od pozivnih centara do poslovnog savetovanja.",
+    "partners": {
+      "p1": "Ringover",
+      "p2": "DHL",
+      "p3": "Avaya",
+      "p4": "AWS",
+      "p5": "Five9",
+      "p6": "HubSpot",
+      "p7": "Zendesk",
+      "p8": "Microsoft"
+    }
   },
   "success": {
     "label": "Karijera",
@@ -80,6 +102,10 @@
       "callcenter": {
         "title": "Pozivni centar",
         "desc": "Inbound i outbound call centar usluge — telemarketing, prodaja, informisanje i podrška."
+      },
+      "ai": {
+        "title": "AI rešenja",
+        "desc": "Pametna automatizacija, chatbotovi i AI asistenti za bržu i efikasniju korisničku podršku."
       },
       "admin": {
         "title": "Administrativna podrška",
