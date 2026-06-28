@@ -5,10 +5,12 @@ import '../styles/careers.css'
 
 const benefits = [
   { key: 'benefit1', icon: '🏠' },
-  { key: 'benefit2', icon: '📈' },
-  { key: 'benefit3', icon: '🌐' },
-  { key: 'benefit4', icon: '🔒' },
+  { key: 'benefit2', icon: '🏢' },
+  { key: 'benefit3', icon: '📈' },
+  { key: 'benefit4', icon: '🤝' },
 ] as const
+
+const perks = ['perk1', 'perk2', 'perk3', 'perk4', 'perk5'] as const
 
 export default function Careers() {
   const { t } = useTranslation()
@@ -20,6 +22,31 @@ export default function Careers() {
           <span className="section-label">{t('careers.label')}</span>
           <h2 className="section-title">{t('careers.title')}</h2>
           <p className="section-subtitle">{t('careers.subtitle')}</p>
+        </div>
+
+        <div className="careers-intro">
+          <p className="careers-intro-lead">{t('careers.intro')}</p>
+          <div className="careers-work-models">
+            <div className="work-model-card">
+              <span className="work-model-icon" aria-hidden="true">🏠</span>
+              <div>
+                <h3>{t('careers.remote.title')}</h3>
+                <p>{t('careers.remote.desc')}</p>
+              </div>
+            </div>
+            <div className="work-model-card">
+              <span className="work-model-icon" aria-hidden="true">🏢</span>
+              <div>
+                <h3>{t('careers.office.title')}</h3>
+                <p>{t('careers.office.desc')}</p>
+              </div>
+            </div>
+          </div>
+          <ul className="careers-perks">
+            {perks.map((key) => (
+              <li key={key}>{t(`careers.${key}`)}</li>
+            ))}
+          </ul>
         </div>
 
         <div className="careers-grid">

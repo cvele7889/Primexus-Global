@@ -127,7 +127,7 @@
     "legal": "Pravni status",
     "legalValue": "Društvo sa ograničenom odgovornošću (D.O.O.)",
     "founder": "Osnivač i zakonski zastupnik",
-    "founderValue": "Aleksandar Đorđević",
+    "founderValue": "N. Janković",
     "values": {
       "title": "Naše vrednosti",
       "people": "Ljudi na prvom mestu",
@@ -168,7 +168,7 @@
   },
   "jobs": {
     "title": "Otvorene pozicije",
-    "subtitle": "Pronađi savršen posao za sebe. Stalno rastemo i tražimo talentovane ljude.",
+    "subtitle": "Pronađite ulogu koja vam odgovara. Ako ispunjavate uslove za poziciju, rado ćemo razmotriti vašu prijavu.",
     "showing": "Prikazano: {{count}} od {{total}}",
     "apply": "Prijavi se",
     "noResults": "Nema pozicija za izabrane filtere.",
@@ -253,18 +253,32 @@
   },
   "careers": {
     "label": "Karijera",
-    "title": "Visoke ambicije su dobrodošle",
-    "subtitle": "Budite deo tima koji podržava vodeće brendove. Rad od kuće ili iz kancelarije — vaš izbor.",
-    "benefit1": "Rad od kuće",
-    "benefit1Desc": "Fleksibilni modeli rada prilagođeni modernom načinu života.",
-    "benefit2": "Razvoj karijere",
-    "benefit2Desc": "Obuke, mentorstvo i jasne puteve napredovanja.",
-    "benefit3": "Međunarodno okruženje",
-    "benefit3Desc": "Rad sa klijentima iz celog sveta na stranim jezicima.",
-    "benefit4": "Stabilnost",
-    "benefit4Desc": "Dugoročni ugovori i sigurno radno okruženje.",
+    "title": "Pridružite se našem timu",
+    "subtitle": "Tražimo odgovorne, komunikativne i motivisane ljude spremne da rade u modernom okruženju.",
+    "intro": "Kod nas možete raditi od kuće ili iz kancelarije — u zavisnosti od pozicije i uslova koje kompanija određuje za svaku ulogu.",
+    "remote": {
+      "title": "Rad od kuće",
+      "desc": "Dostupan za određene pozicije, uz ispunjavanje tehničkih i organizacionih uslova propisanih od strane kompanije."
+    },
+    "office": {
+      "title": "Kancelarski posao",
+      "desc": "Moderna kancelarija u Ljigu, opremljena za efikasan rad u timu koji podržava međunarodne klijente."
+    },
+    "perk1": "Savremeno opremljen prostor za rad",
+    "perk2": "Prijatna i pozitivna radna atmosfera",
+    "perk3": "Profesionalan i podržavajući tim",
+    "perk4": "Obuke, razvoj i mogućnost napredovanja",
+    "perk5": "Stabilno okruženje u kojem se ceni trud",
+    "benefit1": "Fleksibilan model rada",
+    "benefit1Desc": "Rad od kuće ili iz kancelarije — prema poziciji i uslovima kompanije.",
+    "benefit2": "Moderna kancelarija",
+    "benefit2Desc": "Opremljen prostor u Ljigu sa svim potrebnim uslovima za kvalitetan rad.",
+    "benefit3": "Razvoj karijere",
+    "benefit3Desc": "Obuke, mentorstvo i jasne mogućnosti za napredovanje.",
+    "benefit4": "Tim i stabilnost",
+    "benefit4Desc": "Prijateljsko okruženje, podrška kolega i dugoročna sigurnost.",
     "cta": "Pošaljite CV",
-    "ctaDesc": "Zainteresovani ste? Pošaljite nam svoju biografiju i javićemo vam se."
+    "ctaDesc": "Postanite deo našeg tima — pošaljite biografiju i javićemo vam se u najkraćem roku."
   },
   "contact": {
     "label": "Kontakt",

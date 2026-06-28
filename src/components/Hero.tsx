@@ -14,6 +14,7 @@ export default function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-bg" />
+      <img src="/logo.png" alt="" className="hero-logo-bg" aria-hidden="true" />
       <div className="hero-grid" />
       <div className="hero-orb hero-orb-1" />
       <div className="hero-orb hero-orb-2" />

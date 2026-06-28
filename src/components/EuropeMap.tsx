@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import type { MouseEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import mapData from '../data/europe-map.json'
+import { mapRoutes, buildCurvedPath } from '../data/map-routes'
+import { projectMapPoint, type MapProjectionMeta } from '../utils/map-projection'
 
 interface MapCountry {
   id: string
@@ -15,13 +17,23 @@ export default function EuropeMap() {
   const [hovered, setHovered] = useState<string | null>(null)
   const [tooltip, setTooltip] = useState({ x: 0, y: 0, name: '' })
 
-  const { viewBox, countries, hqMarker } = mapData as {
+  const { viewBox, countries, hqMarker, projection } = mapData as {
     viewBox: string
     width: number
     height: number
+    projection: MapProjectionMeta
     countries: MapCountry[]
     hqMarker: { x: number; y: number }
   }
+
+  const projectedRoutes = useMemo(
+    () =>
+      mapRoutes.map((route) => ({
+        ...route,
+        ...projectMapPoint(projection, route.lon, route.lat),
+      })),
+    [projection],
+  )
 
   const [vbX, vbY, vbW, vbH] = viewBox.split(' ').map(Number)
 
@@ -90,6 +102,25 @@ export default function EuropeMap() {
               />
             )
           })}
+        </g>
+
+        <g className="map-routes" aria-hidden="true">
+          {projectedRoutes.map((route) => (
+            <path
+              key={route.id}
+              d={buildCurvedPath(hqMarker, route, route.bend)}
+              className="map-route"
+            />
+          ))}
+          {projectedRoutes.map((route) => (
+            <circle
+              key={`${route.id}-dot`}
+              cx={route.x}
+              cy={route.y}
+              r="3.5"
+              className="map-route-dot"
+            />
+          ))}
         </g>
 
         <g className="hq-marker">

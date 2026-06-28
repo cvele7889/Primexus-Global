@@ -127,7 +127,7 @@
     "legal": "Legal status",
     "legalValue": "Limited Liability Company (LLC)",
     "founder": "Founder & legal representative",
-    "founderValue": "Aleksandar Đorđević",
+    "founderValue": "N. Janković",
     "values": {
       "title": "Our values",
       "people": "People first",
@@ -168,7 +168,7 @@
   },
   "jobs": {
     "title": "Open positions",
-    "subtitle": "Find your perfect job. We're growing and looking for talented people.",
+    "subtitle": "Find a role that fits you. If you meet the requirements, we will gladly review your application.",
     "showing": "Showing: {{count}} of {{total}}",
     "apply": "Apply",
     "noResults": "No positions match your filters.",
@@ -253,18 +253,32 @@
   },
   "careers": {
     "label": "Careers",
-    "title": "High ambitions welcome",
-    "subtitle": "Join a team that supports leading brands. Work from home or office — your choice.",
-    "benefit1": "Remote work",
-    "benefit1Desc": "Flexible work models adapted to modern lifestyle.",
-    "benefit2": "Career development",
-    "benefit2Desc": "Training, mentorship and clear advancement paths.",
-    "benefit3": "International environment",
-    "benefit3Desc": "Work with clients worldwide in foreign languages.",
-    "benefit4": "Stability",
-    "benefit4Desc": "Long-term contracts and secure work environment.",
+    "title": "Join our team",
+    "subtitle": "We are looking for responsible, communicative and motivated people ready to work in a modern environment.",
+    "intro": "You can work from home or from our office — depending on the role and the conditions set by the company for each position.",
+    "remote": {
+      "title": "Work from home",
+      "desc": "Available for selected roles, subject to the technical and organizational requirements defined by the company."
+    },
+    "office": {
+      "title": "Office-based role",
+      "desc": "A modern office in Ljig, fully equipped for effective teamwork supporting international clients."
+    },
+    "perk1": "Modern, well-equipped workspace",
+    "perk2": "Friendly and positive atmosphere",
+    "perk3": "Professional, supportive team",
+    "perk4": "Training, growth and advancement opportunities",
+    "perk5": "Stable environment that values dedication",
+    "benefit1": "Flexible work model",
+    "benefit1Desc": "Remote or office-based — depending on the role and company requirements.",
+    "benefit2": "Modern office",
+    "benefit2Desc": "Fully equipped workspace in Ljig with everything you need to perform at your best.",
+    "benefit3": "Career development",
+    "benefit3Desc": "Training, mentorship and clear paths for advancement.",
+    "benefit4": "Team & stability",
+    "benefit4Desc": "A friendly environment, colleague support and long-term security.",
     "cta": "Send your CV",
-    "ctaDesc": "Interested? Send us your resume and we'll get back to you."
+    "ctaDesc": "Become part of our team — send your resume and we will get back to you shortly."
   },
   "contact": {
     "label": "Contact",

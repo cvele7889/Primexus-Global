@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import Logo from './Logo'
+import '../styles/logo.css'
 import '../styles/header.css'
 
 const languages = [
@@ -49,10 +51,7 @@ export default function Header() {
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-inner">
           <a href="#home" className="logo" onClick={closeMenu}>
-            <div className="logo-icon">P</div>
-            <div className="logo-text">
-              Primexus <span>Global</span>
-            </div>
+            <Logo />
           </a>
 
           <nav className="nav-desktop">

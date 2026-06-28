@@ -127,7 +127,7 @@
     "legal": "Rechtsstatus",
     "legalValue": "Gesellschaft mit beschränkter Haftung (GmbH)",
     "founder": "Gründer & gesetzlicher Vertreter",
-    "founderValue": "Aleksandar Đorđević",
+    "founderValue": "N. Janković",
     "values": {
       "title": "Unsere Werte",
       "people": "Menschen an erster Stelle",
@@ -168,7 +168,7 @@
   },
   "jobs": {
     "title": "Offene Stellen",
-    "subtitle": "Finden Sie Ihren perfekten Job. Wir wachsen und suchen talentierte Menschen.",
+    "subtitle": "Finden Sie eine passende Rolle. Wenn Sie die Voraussetzungen erfüllen, prüfen wir Ihre Bewerbung gerne.",
     "showing": "Angezeigt: {{count}} von {{total}}",
     "apply": "Bewerben",
     "noResults": "Keine Stellen für die gewählten Filter.",
@@ -253,18 +253,32 @@
   },
   "careers": {
     "label": "Karriere",
-    "title": "Hohe Ambitionen willkommen",
-    "subtitle": "Werden Sie Teil eines Teams, das führende Marken unterstützt. Homeoffice oder Büro — Ihre Wahl.",
-    "benefit1": "Remote-Arbeit",
-    "benefit1Desc": "Flexible Arbeitsmodelle, angepasst an den modernen Lebensstil.",
-    "benefit2": "Karriereentwicklung",
-    "benefit2Desc": "Schulungen, Mentoring und klare Aufstiegsmöglichkeiten.",
-    "benefit3": "Internationales Umfeld",
-    "benefit3Desc": "Arbeit mit Kunden weltweit in Fremdsprachen.",
-    "benefit4": "Stabilität",
-    "benefit4Desc": "Langfristige Verträge und sicheres Arbeitsumfeld.",
+    "title": "Werden Sie Teil unseres Teams",
+    "subtitle": "Wir suchen verantwortungsbewusste, kommunikative und motivierte Menschen für ein modernes Arbeitsumfeld.",
+    "intro": "Bei uns arbeiten Sie von zu Hause oder im Büro — je nach Stelle und den vom Unternehmen festgelegten Bedingungen.",
+    "remote": {
+      "title": "Homeoffice",
+      "desc": "Für ausgewählte Positionen verfügbar, sofern die technischen und organisatorischen Voraussetzungen erfüllt sind."
+    },
+    "office": {
+      "title": "Bürotätigkeit",
+      "desc": "Modernes Büro in Ljig, ausgestattet für effektive Teamarbeit mit internationalen Kunden."
+    },
+    "perk1": "Modern ausgestatteter Arbeitsplatz",
+    "perk2": "Angenehme und positive Atmosphäre",
+    "perk3": "Professionelles, unterstützendes Team",
+    "perk4": "Schulungen, Entwicklung und Aufstiegschancen",
+    "perk5": "Stabiles Umfeld, das Engagement schätzt",
+    "benefit1": "Flexibles Arbeitsmodell",
+    "benefit1Desc": "Homeoffice oder Büro — je nach Position und Unternehmensvorgaben.",
+    "benefit2": "Modernes Büro",
+    "benefit2Desc": "Voll ausgestatteter Arbeitsplatz in Ljig mit allem, was Sie für gute Arbeit brauchen.",
+    "benefit3": "Karriereentwicklung",
+    "benefit3Desc": "Schulungen, Mentoring und klare Aufstiegsmöglichkeiten.",
+    "benefit4": "Team & Stabilität",
+    "benefit4Desc": "Freundliches Umfeld, Unterstützung der Kollegen und langfristige Sicherheit.",
     "cta": "Lebenslauf senden",
-    "ctaDesc": "Interessiert? Senden Sie uns Ihren Lebenslauf und wir melden uns bei Ihnen."
+    "ctaDesc": "Werden Sie Teil unseres Teams — senden Sie Ihren Lebenslauf, wir melden uns zeitnah."
   },
   "contact": {
     "label": "Kontakt",

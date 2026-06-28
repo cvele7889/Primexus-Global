@@ -157,6 +157,12 @@ const viewMinY = bounds.minY - PADDING
 const hq = projection([20.14, 44.24])
 const hqMarker = { x: hq[0], y: hq[1] }
 
+const mapProjection = {
+  center: projection.center(),
+  scale: projection.scale(),
+  translate: projection.translate(),
+}
+
 mkdirSync('src/data', { recursive: true })
 writeFileSync(
   'src/data/europe-map.json',
@@ -164,6 +170,7 @@ writeFileSync(
     viewBox: `${viewMinX} ${viewMinY} ${width} ${height}`,
     width,
     height,
+    projection: mapProjection,
     countries,
     hqMarker: { x: hqMarker.x, y: hqMarker.y },
   }),

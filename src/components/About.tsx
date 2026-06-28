@@ -1,4 +1,6 @@
 import { useTranslation } from 'react-i18next'
+import Logo from './Logo'
+import '../styles/logo.css'
 import '../styles/about.css'
 
 export default function About() {
@@ -40,9 +42,7 @@ export default function About() {
 
           <div className="about-visual">
             <div className="about-card-main">
-              <div className="about-card-logo">PG</div>
-              <h3>Primexus Global</h3>
-              <p>D.O.O.</p>
+              <Logo size="lg" />
               <div className="about-card-location">📍 Ljig, Serbia</div>
             </div>
           </div>

@@ -1,0 +1,36 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  display: block;
+  object-fit: contain;
+}
+
+.logo-img-sm {
+  height: 64px;
+  width: auto;
+  max-width: min(220px, 45vw);
+}
+
+.header .logo-img-sm {
+  height: 72px;
+  max-width: 260px;
+}
+
+.footer .logo-img-sm {
+  height: 72px;
+  max-width: 240px;
+}
+
+.logo-img-md {
+  height: 120px;
+  width: auto;
+}
+
+.logo-img-lg {
+  height: min(280px, 70vw);
+  width: auto;
+  margin: 0 auto;
+}

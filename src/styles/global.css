@@ -33,7 +33,7 @@
   --shadow-glow: 0 0 40px rgba(0, 102, 255, 0.15);
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --max-width: 1200px;
-  --header-height: 72px;
+  --header-height: 80px;
 }
 
 html {

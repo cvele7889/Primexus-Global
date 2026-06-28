@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { PRIMARY_EMAIL, SECONDARY_EMAIL } from '../config/contact'
+import Logo from './Logo'
+import '../styles/logo.css'
 import '../styles/footer.css'
 
 export default function Footer() {
@@ -12,10 +14,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="logo">
-              <div className="logo-icon">P</div>
-              <div className="logo-text">
-                Primexus <span>Global</span>
-              </div>
+              <Logo />
             </div>
             <p>{t('footer.desc')}</p>
           </div>
