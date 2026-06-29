@@ -148,6 +148,18 @@
 
 .hero-service-card-ai {
   gap: 6px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  appearance: none;
+}
+
+.hero-service-card-ai.glass-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 162, 255, 0.45);
+  box-shadow: 0 0 24px rgba(0, 100, 200, 0.12);
 }
 
 .hero-ai-header {

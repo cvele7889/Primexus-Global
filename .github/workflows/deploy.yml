@@ -37,6 +37,10 @@ jobs:
           NODE_ENV: production
           VITE_RECAPTCHA_SITE_KEY: ${{ vars.VITE_RECAPTCHA_SITE_KEY || secrets.VITE_RECAPTCHA_SITE_KEY || '6LcFrTEtAAAAALS5d7SyA9zwfMM1yHB6U_v_C1tY' }}
           VITE_PUBLIC_PHONE: ${{ vars.VITE_PUBLIC_PHONE || '' }}
+          VITE_AI_API_KEY: ${{ secrets.VITE_AI_API_KEY || '' }}
+          VITE_AI_API_URL: ${{ vars.VITE_AI_API_URL || 'https://api.groq.com/openai/v1/chat/completions' }}
+          VITE_AI_MODEL: ${{ vars.VITE_AI_MODEL || 'llama-3.3-70b-versatile' }}
+          VITE_AI_CHAT_ENDPOINT: ${{ vars.VITE_AI_CHAT_ENDPOINT || '' }}
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4

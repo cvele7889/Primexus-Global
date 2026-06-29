@@ -327,6 +327,24 @@
       "notConfigured": "Forma trenutno nije podešena. Kontaktirajte nas putem e-maila."
     }
   },
+  "aiChat": {
+    "title": "Primexus AI",
+    "launcher": "Primexus AI",
+    "online": "Online",
+    "open": "Otvori chat",
+    "close": "Zatvori chat",
+    "placeholder": "Unesite poruku...",
+    "send": "Pošalji",
+    "greeting": "Zdravo! Ja sam Primexus AI, virtuelni asistent Primexus Global. Mogu da odgovorim na pitanja o uslugama, lokacijama, karijeri i kontaktu. Kako mogu da pomognem?",
+    "suggestions": {
+      "services": "Koje usluge nudite?",
+      "careers": "Imate li otvorene pozicije?",
+      "locations": "Gde poslujete?",
+      "contact": "Kako mogu da vas kontaktiram?"
+    },
+    "error": "Poruka nije poslata. Pokušajte ponovo.",
+    "footer": "Primexus AI · Odgovaram na jeziku koji ste odabrali na sajtu"
+  },
   "footer": {
     "desc": "Primexus Global D.O.O. — vrhunske BPO i CX usluge širom Evrope i Azije.",
     "company": "Kompanija",

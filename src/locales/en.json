@@ -327,6 +327,24 @@
       "notConfigured": "The form is not configured yet. Please contact us by email."
     }
   },
+  "aiChat": {
+    "title": "Primexus AI",
+    "launcher": "Primexus AI",
+    "online": "Online",
+    "open": "Open chat",
+    "close": "Close chat",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "greeting": "Hello! I am Primexus AI, the virtual assistant for Primexus Global. I can answer questions about services, locations, careers and contact options. How can I help?",
+    "suggestions": {
+      "services": "What services do you offer?",
+      "careers": "Do you have open positions?",
+      "locations": "Where do you operate?",
+      "contact": "How can I contact you?"
+    },
+    "error": "Message could not be sent. Please try again.",
+    "footer": "Primexus AI · Replies in your selected site language"
+  },
   "footer": {
     "desc": "Primexus Global D.O.O. — premium BPO and CX services across Europe and Asia.",
     "company": "Company",

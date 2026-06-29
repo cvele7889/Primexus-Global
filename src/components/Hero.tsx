@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useAiChat } from '../context/AiChatContext'
 import '../styles/glass.css'
 import '../styles/hero.css'
 
@@ -13,6 +14,7 @@ const heroCards = [
 
 export default function Hero() {
   const { t } = useTranslation()
+  const { openChat } = useAiChat()
 
   return (
     <section id="home" className="hero">
@@ -57,7 +59,12 @@ export default function Hero() {
             </div>
           ))}
 
-          <div className="hero-service-card hero-service-card-ai glass-card">
+          <button
+            type="button"
+            className="hero-service-card hero-service-card-ai glass-card"
+            onClick={openChat}
+            aria-label={t('aiChat.open')}
+          >
             <div className="hero-ai-header">
               <div className="hero-ai-wave" aria-hidden="true">
                 {Array.from({ length: 10 }, (_, i) => (
@@ -68,7 +75,7 @@ export default function Hero() {
             </div>
             <h3>{t('hero.primexusAi.title')}</h3>
             <p>{t('hero.primexusAi.greeting')}</p>
-          </div>
+          </button>
         </div>
       </div>
     </section>

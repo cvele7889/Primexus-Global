@@ -7,10 +7,12 @@ import Locations from './components/Locations'
 import Careers from './components/Careers'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import PrimexusAiChat from './components/PrimexusAiChat'
+import { AiChatProvider } from './context/AiChatContext'
 
 export default function App() {
   return (
-    <>
+    <AiChatProvider>
       <Header />
       <main>
         <Hero />
@@ -22,6 +24,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+      <PrimexusAiChat />
+    </AiChatProvider>
   )
 }
