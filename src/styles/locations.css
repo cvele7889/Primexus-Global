@@ -48,19 +48,19 @@
 
 .map-route {
   fill: none;
-  stroke: #00a2ff;
+  stroke: #ff8c00;
   stroke-opacity: 0.95;
   stroke-width: 2.6;
   stroke-dasharray: 7 5;
   stroke-linecap: round;
-  filter: drop-shadow(0 0 6px rgba(0, 162, 255, 0.75));
+  filter: drop-shadow(0 0 6px rgba(255, 140, 0, 0.75));
 }
 
 .map-route-dot {
-  fill: #00a2ff;
+  fill: #ff8c00;
   stroke: #000814;
   stroke-width: 1;
-  filter: drop-shadow(0 0 4px rgba(0, 162, 255, 0.9));
+  filter: drop-shadow(0 0 4px rgba(255, 140, 0, 0.9));
 }
 
 .map-coverage {
